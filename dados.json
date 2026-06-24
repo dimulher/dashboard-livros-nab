@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-06-24T12:00:00Z",
+  "ultima_atualizacao": "2026-06-24T13:00:00Z",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -39,9 +39,9 @@
               },
               {
                 "nome": "Eliane Mirandolli",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "data": "2026-06-24",
+                "creditos": 6.17
               },
               {
                 "nome": "Gelsi Moschetta",
