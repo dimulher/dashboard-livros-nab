@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-06-24T08:00:00Z",
+  "ultima_atualizacao": "2026-06-24T12:00:00Z",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -33,9 +33,9 @@
               },
               {
                 "nome": "Claudimara Zanchetta",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "data": "2026-06-24",
+                "creditos": 2.7
               },
               {
                 "nome": "Eliane Mirandolli",
