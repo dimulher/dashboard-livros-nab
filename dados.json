@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-06-24T15:00:00Z",
+  "ultima_atualizacao": "2026-06-24T16:00:00Z",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -57,9 +57,9 @@
               },
               {
                 "nome": "Gizely Delmonico",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "data": "2026-06-24",
+                "creditos": 2.8
               },
               {
                 "nome": "Irene Sa Affolter",
