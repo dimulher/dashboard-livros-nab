@@ -8,9 +8,14 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; padding: 20px; }
 .container { max-width: 1400px; margin: 0 auto; }
-.header { text-align: center; color: white; margin-bottom: 40px; }
+.header { text-align: center; color: white; margin-bottom: 30px; }
 .header h1 { font-size: 2.5em; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.2); }
 .header p { font-size: 1.1em; opacity: 0.9; }
+.filtros { background: white; border-radius: 12px; padding: 18px 20px; margin-bottom: 30px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+.filtro-grupo { display: flex; flex-direction: column; gap: 6px; }
+.filtro-grupo label { font-size: 0.78em; font-weight: 600; color: #666; text-transform: uppercase; letter-spacing: 0.5px; }
+.filtro-grupo select, .filtro-grupo input { padding: 10px 12px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 0.95em; outline: none; }
+.filtro-grupo select:focus, .filtro-grupo input:focus { border-color: #667eea; }
 .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin-bottom: 40px; }
 .stat-card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; }
 .stat-card h3 { color: #666; font-size: 0.9em; text-transform: uppercase; margin-bottom: 10px; }
@@ -33,8 +38,9 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 .status-pendente { background: #FEF3C7; color: #92400E; }
 .status-erro { background: #FEE2E2; color: #991B1B; }
 .data { font-size: 0.75em; color: #999; }
+.vazio { text-align: center; color: #aaa; padding: 20px; font-style: italic; }
 .footer { text-align: center; color: white; padding: 20px; opacity: 0.8; }
-@media (max-width: 1024px) { .dashboard { grid-template-columns: 1fr; } .header h1 { font-size: 1.8em; } }
+@media (max-width: 1024px) { .dashboard { grid-template-columns: 1fr; } .filtros { grid-template-columns: 1fr; } .header h1 { font-size: 1.8em; } }
 .total-creditos { font-size: 0.85em; color: #666; margin-top: 5px; }
 </style>
 </head>
@@ -45,6 +51,11 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 <p>Dashboard de Progresso - Dede vs Robert</p>
 <p id="ultima-atualizacao" style="font-size: 0.9em; margin-top: 10px;"></p>
 </div>
+<div class="filtros">
+<div class="filtro-grupo"><label>Livro</label><select id="filtro-livro"><option value="">Todos os livros</option></select></div>
+<div class="filtro-grupo"><label>Coordenador</label><select id="filtro-coord"><option value="">Todos os coordenadores</option></select></div>
+<div class="filtro-grupo"><label>Buscar autor</label><input type="text" id="busca-autor" placeholder="Digite o nome do autor..."></div>
+</div>
 <div class="stats" id="stats-container"></div>
 <div class="dashboard">
 <div id="dede-section"></div>
@@ -53,64 +64,82 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 <div class="footer"><p>Dashboard sincronizado com GitHub - Deploy em Vercel</p></div>
 </div>
 <script>
+var DADOS = null;
 async function loadDashboard() {
   try {
     const response = await fetch('dados.json?t=' + Date.now());
-    const data = await response.json();
-    renderStats(data);
-    renderPerson('dede', data.dede, '#dede-section');
-    renderPerson('robert', data.robert, '#robert-section');
-    const date = new Date(data.ultima_atualizacao);
+    DADOS = await response.json();
+    popularFiltros(DADOS);
+    aplicar();
+    const date = new Date(DADOS.ultima_atualizacao);
     document.getElementById('ultima-atualizacao').textContent = 'Ultima atualizacao: ' + date.toLocaleDateString('pt-BR') + ' as ' + date.toLocaleTimeString('pt-BR');
-  } catch (error) { console.error('Erro ao carregar dados:', error); }
+  } catch (error) { console.error('Erro:', error); }
+}
+function popularFiltros(data) {
+  var livros = {}, coords = {};
+  [data.dede, data.robert].forEach(function(p) {
+    p.livros.forEach(function(livro) {
+      livros[livro.nome] = true;
+      livro.coordenadores.forEach(function(coord) { coords[coord.nome] = true; });
+    });
+  });
+  preencherSelect('filtro-livro', Object.keys(livros), 'Todos os livros');
+  preencherSelect('filtro-coord', Object.keys(coords), 'Todos os coordenadores');
+}
+function preencherSelect(id, valores, labelTodos) {
+  var sel = document.getElementById(id), atual = sel.value;
+  sel.innerHTML = '<option value="">' + labelTodos + '</option>';
+  valores.forEach(function(v) { var o = document.createElement('option'); o.value = v; o.textContent = v; sel.appendChild(o); });
+  sel.value = atual;
+}
+function getFiltros() {
+  return { livro: document.getElementById('filtro-livro').value, coord: document.getElementById('filtro-coord').value, autor: document.getElementById('busca-autor').value.trim().toLowerCase() };
+}
+function aplicar() {
+  if (!DADOS) return;
+  var f = getFiltros();
+  renderStats(DADOS);
+  renderPerson('dede', DADOS.dede, '#dede-section', f);
+  renderPerson('robert', DADOS.robert, '#robert-section', f);
 }
 function renderStats(data) {
   const stats = document.getElementById('stats-container');
-  const dedeTotal = countStatus(data.dede, 'concluido');
-  const dedeAll = countTotal(data.dede);
-  const robertTotal = countStatus(data.robert, 'concluido');
-  const robertAll = countTotal(data.robert);
-  const totalCreditos = calculateCreditos(data.dede) + calculateCreditos(data.robert);
-  stats.innerHTML = '<div class="stat-card"><h3>Dede</h3><div class="value">' + dedeTotal + '/' + dedeAll + '</div><div class="total-creditos">R$ ' + (calculateCreditos(data.dede) * 0.03).toFixed(2) + '</div></div><div class="stat-card"><h3>Robert</h3><div class="value">' + robertTotal + '/' + robertAll + '</div><div class="total-creditos">R$ ' + (calculateCreditos(data.robert) * 0.03).toFixed(2) + '</div></div><div class="stat-card"><h3>Total</h3><div class="value">' + (dedeTotal + robertTotal) + '/' + (dedeAll + robertAll) + '</div><div class="total-creditos">R$ ' + (totalCreditos * 0.03).toFixed(2) + '</div></div>';
+  const dt = countStatus(data.dede, 'concluido'), da = countTotal(data.dede);
+  const rt = countStatus(data.robert, 'concluido'), ra = countTotal(data.robert);
+  const tc = calculateCreditos(data.dede) + calculateCreditos(data.robert);
+  stats.innerHTML = '<div class="stat-card"><h3>Dede</h3><div class="value">' + dt + '/' + da + '</div><div class="total-creditos">R$ ' + (calculateCreditos(data.dede) * 0.03).toFixed(2) + '</div></div><div class="stat-card"><h3>Robert</h3><div class="value">' + rt + '/' + ra + '</div><div class="total-creditos">R$ ' + (calculateCreditos(data.robert) * 0.03).toFixed(2) + '</div></div><div class="stat-card"><h3>Total</h3><div class="value">' + (dt + rt) + '/' + (da + ra) + '</div><div class="total-creditos">R$ ' + (tc * 0.03).toFixed(2) + '</div></div>';
 }
-function renderPerson(name, person, selector) {
+function renderPerson(name, person, selector, f) {
   const section = document.querySelector(selector);
-  const avatarColor = name === 'dede' ? '#3B82F6' : '#EF4444';
-  const borderColor = name === 'dede' ? '#3B82F6' : '#EF4444';
-  let livrosHTML = '';
-  let total = 0, concluidos = 0;
+  const cor = name === 'dede' ? '#3B82F6' : '#EF4444';
+  let livrosHTML = '', total = 0, concluidos = 0;
   person.livros.forEach(function(livro) {
-    livrosHTML += '<div class="livro" style="border-left-color: ' + borderColor + ';"><div class="livro-titulo">' + livro.nome + '</div>';
+    if (f.livro && livro.nome !== f.livro) return;
+    var coordsHTML = '';
     livro.coordenadores.forEach(function(coord) {
-      livrosHTML += '<div class="coordenador"><div class="coordenador-nome">' + coord.nome + '</div><div class="autor-list">';
+      if (f.coord && coord.nome !== f.coord) return;
+      var autoresHTML = '';
       coord.autores.forEach(function(autor) {
         total++;
         if (autor.status === 'concluido') concluidos++;
-        const statusEmoji = autor.status === 'concluido' ? 'OK' : '...';
-        const dataStr = autor.data ? '<span class="data">' + autor.data + '</span>' : '';
-        livrosHTML += '<div class="autor-item"><span class="autor-name">' + autor.nome + '</span><span class="status-badge status-' + autor.status + '">' + statusEmoji + '</span>' + dataStr + '</div>';
+        if (f.autor && autor.nome.toLowerCase().indexOf(f.autor) === -1) return;
+        var emoji = autor.status === 'concluido' ? 'OK' : '...';
+        var ds = autor.data ? '<span class="data">' + autor.data + '</span>' : '';
+        autoresHTML += '<div class="autor-item"><span class="autor-name">' + autor.nome + '</span><span class="status-badge status-' + autor.status + '">' + emoji + '</span>' + ds + '</div>';
       });
-      livrosHTML += '</div></div>';
+      if (autoresHTML) coordsHTML += '<div class="coordenador"><div class="coordenador-nome">' + coord.nome + '</div><div class="autor-list">' + autoresHTML + '</div></div>';
     });
-    livrosHTML += '</div>';
+    if (coordsHTML) livrosHTML += '<div class="livro" style="border-left-color: ' + cor + ';"><div class="livro-titulo">' + livro.nome + '</div>' + coordsHTML + '</div>';
   });
-  section.innerHTML = '<div class="person-section"><div class="person-header"><div class="person-avatar" style="background: ' + avatarColor + ';">' + person.nome.charAt(0) + '</div><div class="person-info"><h2>' + person.nome + '</h2><div class="progress">' + concluidos + '/' + total + ' concluidos</div></div></div>' + livrosHTML + '</div>';
+  if (!livrosHTML) livrosHTML = '<div class="vazio">Nenhum resultado para os filtros aplicados.</div>';
+  section.innerHTML = '<div class="person-section"><div class="person-header"><div class="person-avatar" style="background: ' + cor + ';">' + person.nome.charAt(0) + '</div><div class="person-info"><h2>' + person.nome + '</h2><div class="progress">' + concluidos + '/' + total + ' concluidos</div></div></div>' + livrosHTML + '</div>';
 }
-function countStatus(person, status) {
-  let count = 0;
-  person.livros.forEach(function(livro) { livro.coordenadores.forEach(function(coord) { count += coord.autores.filter(function(a){return a.status === status;}).length; }); });
-  return count;
-}
-function countTotal(person) {
-  let count = 0;
-  person.livros.forEach(function(livro) { livro.coordenadores.forEach(function(coord) { count += coord.autores.length; }); });
-  return count;
-}
-function calculateCreditos(person) {
-  let total = 0;
-  person.livros.forEach(function(livro) { livro.coordenadores.forEach(function(coord) { coord.autores.forEach(function(autor){ total += autor.creditos || 0; }); }); });
-  return total;
-}
+function countStatus(person, status) { var c = 0; person.livros.forEach(function(l){ l.coordenadores.forEach(function(co){ c += co.autores.filter(function(a){return a.status === status;}).length; }); }); return c; }
+function countTotal(person) { var c = 0; person.livros.forEach(function(l){ l.coordenadores.forEach(function(co){ c += co.autores.length; }); }); return c; }
+function calculateCreditos(person) { var t = 0; person.livros.forEach(function(l){ l.coordenadores.forEach(function(co){ co.autores.forEach(function(a){ t += a.creditos || 0; }); }); }); return t; }
+document.getElementById('filtro-livro').addEventListener('change', aplicar);
+document.getElementById('filtro-coord').addEventListener('change', aplicar);
+document.getElementById('busca-autor').addEventListener('input', aplicar);
 loadDashboard();
 setInterval(loadDashboard, 30000);
 </script>
