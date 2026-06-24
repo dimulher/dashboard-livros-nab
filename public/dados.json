@@ -1,0 +1,149 @@
+{
+  "ultima_atualizacao": "2026-06-24T08:00:00Z",
+  "dede": {
+    "nome": "Dede",
+    "cor": "#3B82F6",
+    "livros": [
+      {
+        "id": "herois-vol9",
+        "nome": "HEROIS VOL 9",
+        "total_capitulos": 16,
+        "coordenadores": [
+          {
+            "id": "irene-sa",
+            "nome": "COORD-IRENE DE SA",
+            "autores": [
+              {
+                "nome": "Juliano Serotini",
+                "status": "concluido",
+                "data": "2026-06-23",
+                "creditos": 16.0
+              },
+              {
+                "nome": "Sandro Botta",
+                "status": "concluido",
+                "data": "2026-06-23",
+                "creditos": 2.59
+              },
+              {
+                "nome": "Carla Cazella",
+                "status": "concluido",
+                "data": "2026-06-24",
+                "creditos": 2.79
+              },
+              {
+                "nome": "Claudimara Zanchetta",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Eliane Mirandolli",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Gelsi Moschetta",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Gilvana Botta",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Gizely Delmonico",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Irene Sa Affolter",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Katia Boni",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Luana Ortiz",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Luiz Paulo",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Mariana Cozer Siviero",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Mauro Tibola",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Monica Tavares de Barros",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Rosana Titonelli",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "robert": {
+    "nome": "Robert",
+    "cor": "#EF4444",
+    "livros": [
+      {
+        "id": "herois-vol10",
+        "nome": "HEROIS VOL 10",
+        "total_capitulos": 16,
+        "coordenadores": [
+          {
+            "id": "coord-silva",
+            "nome": "COORD-SILVA",
+            "autores": [
+              {
+                "nome": "[Autor 1]",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "[Autor 2]",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
