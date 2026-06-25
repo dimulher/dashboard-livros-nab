@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-06-24T17:00:00Z",
+  "ultima_atualizacao": "2026-06-25T10:00:00Z",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -109,6 +109,90 @@
                 "data": "2026-06-24",
                 "creditos": 2.2
               }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "empresarios-digital",
+        "nome": "Empresários do Digital",
+        "total_capitulos": 1,
+        "coordenadores": [
+          {
+            "id": "coord-ed",
+            "nome": "COORD-ED",
+            "autores": [
+              { "nome": "Pedro Fiuza", "status": "pendente", "data": null, "creditos": 0 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "enigmas-da-mente",
+        "nome": "Enigmas da Mente",
+        "total_capitulos": 4,
+        "coordenadores": [
+          {
+            "id": "coord-enigmas",
+            "nome": "COORD-ENIGMAS",
+            "autores": [
+              { "nome": "Dr Claudio", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Maria Cecilia", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Raphael Freitas", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Shirley Izabel", "status": "pendente", "data": null, "creditos": 0 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "entre-diagnostico-vida",
+        "nome": "Entre o Diagnóstico e a Vida",
+        "total_capitulos": 4,
+        "coordenadores": [
+          {
+            "id": "coord-edv",
+            "nome": "COORD-EDV",
+            "autores": [
+              { "nome": "Alice Correia", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Ariane", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Matheus Souza", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Zenaira", "status": "pendente", "data": null, "creditos": 0 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gigantes-pt",
+        "nome": "Gigantes Nascem da Queda - PT",
+        "total_capitulos": 4,
+        "coordenadores": [
+          {
+            "id": "coord-gigantes-pt",
+            "nome": "COORD-GIGANTES-PT",
+            "autores": [
+              { "nome": "Fran Backer", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Marcio Okabe", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Raquel", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Saionara", "status": "pendente", "data": null, "creditos": 0 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gigantes-sp",
+        "nome": "Gigantes Nascem da Queda - SP",
+        "total_capitulos": 6,
+        "coordenadores": [
+          {
+            "id": "coord-gigantes-sp",
+            "nome": "COORD-GIGANTES-SP",
+            "autores": [
+              { "nome": "Adriano Moleiro", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Cidinha Perez", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Danielle Roberta", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Karolina Emanoel", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Malu", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Sonia", "status": "pendente", "data": null, "creditos": 0 }
             ]
           }
         ]
