@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-06-25T10:00:00Z",
+  "ultima_atualizacao": "2026-06-25T11:00:00Z",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -7,7 +7,7 @@
       {
         "id": "herois-vol9",
         "nome": "HEROIS VOL 9",
-        "total_capitulos": 16,
+        "total_capitulos": 34,
         "coordenadores": [
           {
             "id": "irene-sa",
@@ -109,6 +109,42 @@
                 "data": "2026-06-24",
                 "creditos": 2.2
               }
+            ]
+          },
+          {
+            "id": "coord-juraci",
+            "nome": "COORD-JURACI",
+            "autores": [
+              { "nome": "Jose Joelson dos Santos", "status": "pendente", "data": null, "creditos": 0 }
+            ]
+          },
+          {
+            "id": "coord-cris-farias",
+            "nome": "COORD-CRIS FARIAS",
+            "autores": [
+              { "nome": "Crystiane Angelica Briel de Mello", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Giuseppina Maria Fulco", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Maria Divina Silva e Silva Brasil", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Rosangela Aparecida da Silva", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Suelen de Araujo Borges", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Telma Conceicao Alves Ferreira Soares", "status": "pendente", "data": null, "creditos": 0 }
+            ]
+          },
+          {
+            "id": "coord-chico-jr",
+            "nome": "COORD-CHICO JR",
+            "autores": [
+              { "nome": "Antonia Gelza Paulo Ferreira", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Cicero Ronuery Rodrigues", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Eliana Alves Santos e Silva", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Ivignne Lowis Leite dos Reis", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Leandro Silva Almeida", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Luan Lopes Oliveira", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Luis Eduardo", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Roberta Mateus Pereira", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Rondinele dos Santos Brasil", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "Tarcisio Sampaio", "status": "pendente", "data": null, "creditos": 0 },
+              { "nome": "William de Carvalho", "status": "pendente", "data": null, "creditos": 0 }
             ]
           }
         ]
