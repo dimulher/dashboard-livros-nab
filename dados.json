@@ -478,15 +478,15 @@
               },
               {
                 "nome": "Cesar de Carvalho Pereira",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "data": "2026-06-27",
+                "creditos": 1.26
               },
               {
                 "nome": "Daphne Chicarino",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "data": "2026-06-27",
+                "creditos": 1.26
               },
               {
                 "nome": "Joselane Pinheiro Moraes",
@@ -502,33 +502,29 @@
               },
               {
                 "nome": "Leonardo Milner",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "data": "2026-06-27",
+                "creditos": 1.26
               },
               {
                 "nome": "Lucia Raquel Macamo Cilio",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "data": "2026-06-27",
+                "creditos": 1.26
               },
               {
                 "nome": "Luciana Moreno",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0
+                "status": "pendente"
               },
               {
                 "nome": "Luciane Alves de Carvalho Miranda",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0
+                "status": "pendente"
               },
               {
                 "nome": "Mariana Soares Santos",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "data": "2026-06-27",
+                "creditos": 1.26
               },
               {
                 "nome": "Pedro Sheneider",
@@ -538,9 +534,9 @@
               },
               {
                 "nome": "Raphael Lopes Motta",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "data": "2026-06-27",
+                "creditos": 1.26
               },
               {
                 "nome": "Samir Ali Tarif",
@@ -550,15 +546,15 @@
               },
               {
                 "nome": "Sandra Rita Samaritano",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "data": "2026-06-27",
+                "creditos": 1.26
               },
               {
                 "nome": "Wendi Flavia Martins Caetano",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "data": "2026-06-27",
+                "creditos": 1.26
               }
             ]
           },
