@@ -564,9 +564,9 @@
             "autores": [
               {
                 "nome": "Ana Cristina Nicolau Torres",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "data": "2026-06-27",
+                "creditos": 1.26
               },
               {
                 "nome": "Elane Daudt Ribeiro",
@@ -582,15 +582,15 @@
               },
               {
                 "nome": "Luiza Daudt Ribeiro",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "data": "2026-06-27",
+                "creditos": 1.26
               },
               {
                 "nome": "Paula Correa Furtado Pereira",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "data": "2026-06-27",
+                "creditos": 1.26
               },
               {
                 "nome": "Thalita Muniz Melo",
