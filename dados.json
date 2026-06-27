@@ -613,9 +613,9 @@
             "autores": [
               {
                 "nome": "Carlos Alcarde",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "data": "2026-06-27",
+                "creditos": 1.26
               },
               {
                 "nome": "Daiane de Souza Moleiro",
@@ -625,9 +625,9 @@
               },
               {
                 "nome": "Daniel Taketa",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "data": "2026-06-27",
+                "creditos": 1.26
               },
               {
                 "nome": "Elaine Cristina da Silva Martins",
@@ -655,9 +655,9 @@
               },
               {
                 "nome": "Juliana Rissi da Cruz",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "data": "2026-06-27",
+                "creditos": 1.26
               },
               {
                 "nome": "Lucyane Casagrande",
@@ -667,9 +667,9 @@
               },
               {
                 "nome": "Marcos Roberto de Oliveira",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "data": "2026-06-27",
+                "creditos": 1.26
               }
             ]
           },
@@ -679,15 +679,15 @@
             "autores": [
               {
                 "nome": "Andrea Vieira Scarpa Ventura",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "data": "2026-06-27",
+                "creditos": 1.26
               },
               {
                 "nome": "Cibele Fischer Mendonca",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "data": "2026-06-27",
+                "creditos": 1.26
               },
               {
                 "nome": "Danielle de Souza Ribas",
@@ -769,9 +769,9 @@
               },
               {
                 "nome": "Tharsila Tawany Neves Strambeck da Costa",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "data": "2026-06-27",
+                "creditos": 1.26
               }
             ]
           },
