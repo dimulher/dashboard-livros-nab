@@ -115,36 +115,126 @@
             "id": "coord-juraci",
             "nome": "COORD-JURACI",
             "autores": [
-              { "nome": "Jose Joelson dos Santos", "status": "pendente", "data": null, "creditos": 0 }
+              {
+                "nome": "Jose Joelson dos Santos",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              }
             ]
           },
           {
             "id": "coord-cris-farias",
             "nome": "COORD-CRIS FARIAS",
             "autores": [
-              { "nome": "Crystiane Angelica Briel de Mello", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Giuseppina Maria Fulco", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Maria Divina Silva e Silva Brasil", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Rosangela Aparecida da Silva", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Suelen de Araujo Borges", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Telma Conceicao Alves Ferreira Soares", "status": "pendente", "data": null, "creditos": 0 }
+              {
+                "nome": "Crystiane Angelica Briel de Mello",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Giuseppina Maria Fulco",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Maria Divina Silva e Silva Brasil",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Rosangela Aparecida da Silva",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Suelen de Araujo Borges",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Telma Conceicao Alves Ferreira Soares",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              }
             ]
           },
           {
             "id": "coord-chico-jr",
             "nome": "COORD-CHICO JR",
             "autores": [
-              { "nome": "Antonia Gelza Paulo Ferreira", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Cicero Ronuery Rodrigues", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Eliana Alves Santos e Silva", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Ivignne Lowis Leite dos Reis", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Leandro Silva Almeida", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Luan Lopes Oliveira", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Luis Eduardo", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Roberta Mateus Pereira", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Rondinele dos Santos Brasil", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Tarcisio Sampaio", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "William de Carvalho", "status": "pendente", "data": null, "creditos": 0 }
+              {
+                "nome": "Antonia Gelza Paulo Ferreira",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Cicero Ronuery Rodrigues",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Eliana Alves Santos e Silva",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Ivignne Lowis Leite dos Reis",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Leandro Silva Almeida",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Luan Lopes Oliveira",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Luis Eduardo",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Roberta Mateus Pereira",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Rondinele dos Santos Brasil",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Tarcisio Sampaio",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "William de Carvalho",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              }
             ]
           }
         ]
@@ -158,50 +248,180 @@
             "id": "coord-alice",
             "nome": "Alice Correia",
             "autores": [
-              { "nome": "Carla Vargas Dias", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Carlos Henrique de Jesus", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Dr Giovanni Melo de Oliveira", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Lorena Rios Ferraz de Almeida", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Priscila Andrade Silva", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Rapuzel Jastro Mantovani", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Thaisa de Araujo Ferreira", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Valdineia Machado Lages Ferrazi", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Vanda Oliveira Lauret dos Anjos", "status": "pendente", "data": null, "creditos": 0 }
+              {
+                "nome": "Carla Vargas Dias",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Carlos Henrique de Jesus",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Dr Giovanni Melo de Oliveira",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Lorena Rios Ferraz de Almeida",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Priscila Andrade Silva",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Rapuzel Jastro Mantovani",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Thaisa de Araujo Ferreira",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Valdineia Machado Lages Ferrazi",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Vanda Oliveira Lauret dos Anjos",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              }
             ]
           },
           {
             "id": "coord-ariane",
             "nome": "Ariane",
             "autores": [
-              { "nome": "Beatriz Damasceno Avaria", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Emerson dos Santos Duarte Mafia", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Humberto Jander de Souza", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Joelana Magali de Oliveira", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Julia Fialho Pessoa Candido", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Kerlen Teixeira do Rego Martins Ferreira", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Millena Selva Medeiros Garonce", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Neiliana Medeiros de Souza Rabelo", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Octavio Amazonas Mendes Almeida", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Priscila Carla Alves", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Sabrina Andrade Novaes", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Tayna de Mello Reis Silva", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Vanessa Cristina Da Silva Jardim", "status": "pendente", "data": null, "creditos": 0 }
+              {
+                "nome": "Beatriz Damasceno Avaria",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Emerson dos Santos Duarte Mafia",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Humberto Jander de Souza",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Joelana Magali de Oliveira",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Julia Fialho Pessoa Candido",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Kerlen Teixeira do Rego Martins Ferreira",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Millena Selva Medeiros Garonce",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Neiliana Medeiros de Souza Rabelo",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Octavio Amazonas Mendes Almeida",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Priscila Carla Alves",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Sabrina Andrade Novaes",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Tayna de Mello Reis Silva",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Vanessa Cristina Da Silva Jardim",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              }
             ]
           },
           {
             "id": "coord-matheus",
             "nome": "Matheus Souza",
             "autores": [
-              { "nome": "Joyce Dias", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Silvia Patricia Rone Alves", "status": "pendente", "data": null, "creditos": 0 }
+              {
+                "nome": "Joyce Dias",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Silvia Patricia Rone Alves",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              }
             ]
           },
           {
             "id": "coord-zenaira",
             "nome": "Zenaira",
             "autores": [
-              { "nome": "Andreza Valadares Vinagre", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Gabrielle Christine de Sousa Soares", "status": "pendente", "data": null, "creditos": 0 }
+              {
+                "nome": "Andreza Valadares Vinagre",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Gabrielle Christine de Sousa Soares",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              }
             ]
           }
         ]
@@ -215,7 +435,12 @@
             "id": "coord-fran",
             "nome": "Fran Backer",
             "autores": [
-              { "nome": "Camila Bongiovanni Watanabe", "status": "pendente", "data": null, "creditos": 0 }
+              {
+                "nome": "Camila Bongiovanni Watanabe",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              }
             ]
           },
           {
@@ -227,33 +452,138 @@
             "id": "coord-raquel",
             "nome": "Raquel",
             "autores": [
-              { "nome": "Alice Marimon", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Cesar de Carvalho Pereira", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Daphne Chicarino", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Joselane Pinheiro Moraes", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Karina Davina Marcondes Barros", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Leonardo Milner", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Lucia Raquel Macamo Cilio", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Luciana Moreno", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Luciane Alves de Carvalho Miranda", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Mariana Soares Santos", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Pedro Sheneider", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Raphael Lopes Motta", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Samir Ali Tarif", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Sandra Rita Samaritano", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Wendi Flavia Martins Caetano", "status": "pendente", "data": null, "creditos": 0 }
+              {
+                "nome": "Alice Marimon",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Cesar de Carvalho Pereira",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Daphne Chicarino",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Joselane Pinheiro Moraes",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Karina Davina Marcondes Barros",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Leonardo Milner",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Lucia Raquel Macamo Cilio",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Luciana Moreno",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Luciane Alves de Carvalho Miranda",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Mariana Soares Santos",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Pedro Sheneider",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Raphael Lopes Motta",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Samir Ali Tarif",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Sandra Rita Samaritano",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Wendi Flavia Martins Caetano",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              }
             ]
           },
           {
             "id": "coord-saionara",
             "nome": "Saionara",
             "autores": [
-              { "nome": "Ana Cristina Nicolau Torres", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Elane Daudt Ribeiro", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Lia Siqueira de Souza", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Luiza Daudt Ribeiro", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Paula Correa Furtado Pereira", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Thalita Muniz Melo", "status": "pendente", "data": null, "creditos": 0 }
+              {
+                "nome": "Ana Cristina Nicolau Torres",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Elane Daudt Ribeiro",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Lia Siqueira de Souza",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Luiza Daudt Ribeiro",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Paula Correa Furtado Pereira",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Thalita Muniz Melo",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              }
             ]
           }
         ]
@@ -267,62 +597,192 @@
             "id": "coord-adriano",
             "nome": "Adriano Moleiro",
             "autores": [
-              { "nome": "Carlos Alcarde", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Daiane de Souza Moleiro", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Daniel Taketa", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Elaine Cristina da Silva Martins", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Helen Caroline Grechi", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Helio Sluzek Abrao", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Jaziel Ferreira dos Santos", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Juliana Rissi da Cruz", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Lucyane Casagrande", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Marcos Roberto de Oliveira", "status": "pendente", "data": null, "creditos": 0 }
+              {
+                "nome": "Carlos Alcarde",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Daiane de Souza Moleiro",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Daniel Taketa",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Elaine Cristina da Silva Martins",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Helen Caroline Grechi",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Helio Sluzek Abrao",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Jaziel Ferreira dos Santos",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Juliana Rissi da Cruz",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Lucyane Casagrande",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Marcos Roberto de Oliveira",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              }
             ]
           },
           {
             "id": "coord-cidinha",
             "nome": "Cidinha Perez",
             "autores": [
-              { "nome": "Andrea Vieira Scarpa Ventura", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Cibele Fischer Mendonca", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Danielle de Souza Ribas", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Deusa Dominique de Oliveira Brioni", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Eliude da Silva Trindade", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Erica Galhardo", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Fabiana Silva Goncalves Ferreira", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Guilherme Jose Bouzani de Campos Ferreira", "status": "pendente", "data": null, "creditos": 0 }
+              {
+                "nome": "Andrea Vieira Scarpa Ventura",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Cibele Fischer Mendonca",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Danielle de Souza Ribas",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Deusa Dominique de Oliveira Brioni",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Eliude da Silva Trindade",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Erica Galhardo",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Fabiana Silva Goncalves Ferreira",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Guilherme Jose Bouzani de Campos Ferreira",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              }
             ]
           },
           {
             "id": "coord-danielle",
             "nome": "Danielle Roberta",
             "autores": [
-              { "nome": "Lidinalva Silva de Sousa Gama", "status": "pendente", "data": null, "creditos": 0 }
+              {
+                "nome": "Lidinalva Silva de Sousa Gama",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              }
             ]
           },
           {
             "id": "coord-karolina",
             "nome": "Karolina Emanoel",
             "autores": [
-              { "nome": "Dinarleia de Jesus Costa Rocha Ribeiro", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Joyce Batista de Souza", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Matheus Queiroz Maciel", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Patricia Anastacio", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Tharsila Tawany Neves Strambeck da Costa", "status": "pendente", "data": null, "creditos": 0 }
+              {
+                "nome": "Dinarleia de Jesus Costa Rocha Ribeiro",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Joyce Batista de Souza",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Matheus Queiroz Maciel",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Patricia Anastacio",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Tharsila Tawany Neves Strambeck da Costa",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              }
             ]
           },
           {
             "id": "coord-malu",
             "nome": "Malu",
             "autores": [
-              { "nome": "Claudeilene Leite Gomes", "status": "pendente", "data": null, "creditos": 0 }
+              {
+                "nome": "Claudeilene Leite Gomes",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              }
             ]
           },
           {
             "id": "coord-sonia",
             "nome": "Sonia",
             "autores": [
-              { "nome": "Cris", "status": "pendente", "data": null, "creditos": 0 }
+              {
+                "nome": "Cris",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              }
             ]
           }
         ]
@@ -336,42 +796,132 @@
             "id": "coord-dr-claudio",
             "nome": "Dr Claudio",
             "autores": [
-              { "nome": "Francisco Guilhien Gomes Junior", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Ivo Lavor", "status": "pendente", "data": null, "creditos": 0 }
+              {
+                "nome": "Francisco Guilhien Gomes Junior",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Ivo Lavor",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              }
             ]
           },
           {
             "id": "coord-maria-cecilia",
             "nome": "Maria Cecilia",
             "autores": [
-              { "nome": "Yasmin Bastos Rosa", "status": "pendente", "data": null, "creditos": 0 }
+              {
+                "nome": "Yasmin Bastos Rosa",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              }
             ]
           },
           {
             "id": "coord-raphael",
             "nome": "Raphael Freitas",
             "autores": [
-              { "nome": "Jonas Nunes Coutinho", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Leize Lima de Oliveira", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Queila de Souza Santana", "status": "pendente", "data": null, "creditos": 0 }
+              {
+                "nome": "Jonas Nunes Coutinho",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Leize Lima de Oliveira",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Queila de Souza Santana",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              }
             ]
           },
           {
             "id": "coord-shirley",
             "nome": "Shirley Izabel - Isa Silva",
             "autores": [
-              { "nome": "Ana P M D S Aguiar", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Carla Rojane", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Daniele de Resende Dias", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Diego Roberto", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Expedito Joao de Sales Filho", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Jair Barbosa", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Julio Cesar Rodrigues Vaz", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Luana Costa Barbosa Nicastro", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Maria Claudia Aparecida Satiro dos Santos", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Pamella Ferreira Leal", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Rosineide Maria de Paiva", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Silvana Amaro dos Santos", "status": "pendente", "data": null, "creditos": 0 }
+              {
+                "nome": "Ana P M D S Aguiar",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Carla Rojane",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Daniele de Resende Dias",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Diego Roberto",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Expedito Joao de Sales Filho",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Jair Barbosa",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Julio Cesar Rodrigues Vaz",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Luana Costa Barbosa Nicastro",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Maria Claudia Aparecida Satiro dos Santos",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Pamella Ferreira Leal",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Rosineide Maria de Paiva",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Silvana Amaro dos Santos",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              }
             ]
           }
         ]
@@ -385,16 +935,66 @@
             "id": "coord-pedro-fiuza",
             "nome": "Pedro Fiuza",
             "autores": [
-              { "nome": "Brendo Nogueira Carvalho", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Bruno Alexandre Capistrano de Irineu Silva", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Eduardo Fogaca", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Gabriel Charlyson Santana Pereira da Silva", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Gabriel Jesus Azevedo Santos", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Kelvin Campos", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Lana Caroline Marques Mota", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Matheus Goncalves Estevao", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Raiane Danielle de Souza Neponoceno Silva", "status": "pendente", "data": null, "creditos": 0 },
-              { "nome": "Walmir Rocha Lopes", "status": "pendente", "data": null, "creditos": 0 }
+              {
+                "nome": "Brendo Nogueira Carvalho",
+                "status": "concluido",
+                "data": "2026-06-27",
+                "creditos": 4.94
+              },
+              {
+                "nome": "Bruno Alexandre Capistrano de Irineu Silva",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Eduardo Fogaca",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Gabriel Charlyson Santana Pereira da Silva",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Gabriel Jesus Azevedo Santos",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Kelvin Campos",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Lana Caroline Marques Mota",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Matheus Goncalves Estevao",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Raiane Danielle de Souza Neponoceno Silva",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Walmir Rocha Lopes",
+                "status": "pendente",
+                "data": null,
+                "creditos": 0
+              }
             ]
           }
         ]
