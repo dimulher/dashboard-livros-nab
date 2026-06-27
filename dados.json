@@ -415,6 +415,12 @@
                 "status": "pendente",
                 "data": null,
                 "creditos": 0
+              },
+              {
+                "nome": "Matheus Santos de Souza",
+                "status": "concluido",
+                "data": "2026-06-27",
+                "creditos": 1.26
               }
             ]
           },
