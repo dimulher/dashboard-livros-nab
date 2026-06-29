@@ -33,8 +33,17 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
 .filtro-grupo select, .filtro-grupo input { padding: 9px 12px; border: 1px solid rgba(255,255,255,0.2); border-radius: 8px; font-size: 0.9em; outline: none; background: rgba(255,255,255,0.1); color: white; }
 .filtro-grupo select option { background: #302b63; color: white; }
 
+/* PESSOAS SPLIT */
+.pessoas-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 28px; }
+.pessoa-col { display: flex; flex-direction: column; gap: 0; }
+.pessoa-header { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+.pessoa-avatar { width: 42px; height: 42px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.1em; font-weight: 800; color: white; flex-shrink: 0; }
+.pessoa-title { font-size: 1.15em; font-weight: 800; color: white; }
+.pessoa-sub { font-size: 0.78em; color: rgba(255,255,255,0.45); margin-top: 2px; }
+
 /* LIVROS GRID */
-.livros-grid { display: grid; grid-template-columns: 1fr; gap: 20px; }
+.livros-grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+@media (max-width: 900px) { .pessoas-grid { grid-template-columns: 1fr; } }
 
 /* LIVRO CARD */
 .livro-card { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; overflow: hidden; }
@@ -107,7 +116,10 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
   <div class="filtro-grupo"><label>Buscar</label><input type="text" id="busca-autor" placeholder="Nome do autor..."></div>
 </div>
 
-<div class="livros-grid" id="livros-container"></div>
+<div class="pessoas-grid">
+  <div class="pessoa-col" id="col-dede"></div>
+  <div class="pessoa-col" id="col-robert"></div>
+</div>
 
 <div class="footer">Dashboard sincronizado com GitHub · Vercel Auto-Deploy · <span id="ts"></span></div>
 </div>
@@ -136,9 +148,11 @@ function todos_autores(pessoa) {
 
 function popularFiltros() {
   var livros = {}, coords = {};
-  DADOS.dede.livros.forEach(function(l) {
-    livros[l.nome] = true;
-    l.coordenadores.forEach(function(c){ coords[c.nome] = true; });
+  [DADOS.dede, DADOS.robert].forEach(function(p) {
+    p.livros.forEach(function(l) {
+      livros[l.nome] = true;
+      l.coordenadores.forEach(function(c){ coords[c.nome] = true; });
+    });
   });
   fillSelect('filtro-livro', Object.keys(livros), 'Todos');
   fillSelect('filtro-coord', Object.keys(coords), 'Todos');
@@ -164,24 +178,26 @@ function render() {
   if (!DADOS) return;
   var f = getFiltros();
   renderStats();
-  renderLivros(f);
+  renderPessoa(DADOS.dede, 'col-dede', '#a78bfa', f);
+  renderPessoa(DADOS.robert, 'col-robert', '#f87171', f);
 }
 
 function renderStats() {
-  var autores = todos_autores(DADOS.dede);
-  var total = autores.length;
-  var concluidos = autores.filter(function(a){ return a.status === 'concluido'; }).length;
+  var ad = todos_autores(DADOS.dede), ar = todos_autores(DADOS.robert);
+  var allA = ad.concat(ar);
+  var total = allA.length;
+  var concluidos = allA.filter(function(a){ return a.status === 'concluido'; }).length;
   var pendentes = total - concluidos;
-  var comFoto = autores.filter(function(a){ return a.foto === true; }).length;
+  var comFoto = allA.filter(function(a){ return a.foto === true; }).length;
   var semFoto = total - comFoto;
-  var creditos = autores.reduce(function(s, a){ return s + (a.creditos || 0); }, 0);
+  var creditos = ad.reduce(function(s,a){ return s+(a.creditos||0); },0);
 
   document.getElementById('stats-container').innerHTML =
     card('Corrigidos', concluidos + '/' + total, 'green', 'capítulos revisados') +
     card('Pendentes', pendentes, 'yellow', 'aguardando capítulo') +
     card('Com Foto', comFoto + '/' + total, 'blue', 'fotos recebidas') +
     card('Sem Foto', semFoto, 'red', 'fotos em falta') +
-    card('Créditos', creditos.toFixed(0), 'green', 'R$ ' + (creditos * 0.03).toFixed(2));
+    card('Créditos Dede', creditos.toFixed(0), 'green', 'R$ ' + (creditos * 0.03).toFixed(2));
 }
 
 function card(label, val, cor, sub) {
@@ -197,11 +213,28 @@ function passaFiltro(autor, f) {
   return true;
 }
 
-function renderLivros(f) {
-  var container = document.getElementById('livros-container');
+function renderPessoa(pessoa, colId, cor, f) {
+  var autores = todos_autores(pessoa);
+  var conc = autores.filter(function(a){ return a.status==='concluido'; }).length;
+  var total = autores.length;
+  var inicial = pessoa.nome.charAt(0);
+
+  var col = document.getElementById(colId);
+  var header = '<div class="pessoa-header">' +
+    '<div class="pessoa-avatar" style="background:' + cor + '">' + inicial + '</div>' +
+    '<div><div class="pessoa-title">' + pessoa.nome + '</div>' +
+    '<div class="pessoa-sub">' + conc + '/' + total + ' corrigidos</div></div>' +
+    '</div>';
+
+  col.innerHTML = header + '<div class="livros-grid" id="grid-' + colId + '"></div>';
+  renderLivros(pessoa, 'grid-' + colId, cor, f);
+}
+
+function renderLivros(pessoa, containerId, cor, f) {
+  var container = document.getElementById(containerId);
   var html = '';
 
-  DADOS.dede.livros.forEach(function(livro) {
+  pessoa.livros.forEach(function(livro) {
     if (f.livro && livro.nome !== f.livro) return;
 
     var coordsHTML = '';
@@ -259,7 +292,7 @@ function renderLivros(f) {
     if (!coordsHTML) return;
 
     var progLivro = livroTotal > 0 ? Math.round(livroConcluidos / livroTotal * 100) : 0;
-    html += '<div class="livro-card">' +
+    html += '<div class="livro-card" style="border-left:3px solid ' + cor + '">' +
       '<div class="livro-header">' +
         '<div>' +
           '<div class="livro-nome">' + livro.nome + '</div>' +
@@ -275,7 +308,7 @@ function renderLivros(f) {
     '</div>';
   });
 
-  container.innerHTML = html || '<p style="color:rgba(255,255,255,0.4);text-align:center;padding:40px;">Nenhum resultado.</p>';
+  container.innerHTML = html || '<p style="color:rgba(255,255,255,0.4);text-align:center;padding:20px;">Nenhum resultado.</p>';
 }
 
 function toggleCoord(id) {
