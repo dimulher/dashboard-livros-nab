@@ -3,145 +3,300 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dashboard - Correcao de Livros NAB</title>
+<title>Dashboard — Correção Livros NAB</title>
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; padding: 20px; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f0c29; background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); min-height: 100vh; padding: 24px; }
 .container { max-width: 1400px; margin: 0 auto; }
-.header { text-align: center; color: white; margin-bottom: 30px; }
-.header h1 { font-size: 2.5em; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.2); }
-.header p { font-size: 1.1em; opacity: 0.9; }
-.filtros { background: white; border-radius: 12px; padding: 18px 20px; margin-bottom: 30px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+
+/* HEADER */
+.header { text-align: center; color: white; margin-bottom: 32px; }
+.header h1 { font-size: 2.2em; font-weight: 800; letter-spacing: -0.5px; }
+.header h1 span { color: #a78bfa; }
+.header p { font-size: 0.95em; opacity: 0.7; margin-top: 6px; }
+
+/* STATS */
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; margin-bottom: 28px; }
+.stat-card { background: rgba(255,255,255,0.07); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.12); padding: 20px; border-radius: 14px; text-align: center; color: white; }
+.stat-card h3 { font-size: 0.72em; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; opacity: 0.6; margin-bottom: 10px; }
+.stat-card .value { font-size: 2em; font-weight: 800; }
+.stat-card .value.green { color: #34d399; }
+.stat-card .value.yellow { color: #fbbf24; }
+.stat-card .value.red { color: #f87171; }
+.stat-card .value.blue { color: #60a5fa; }
+.stat-card .sub { font-size: 0.78em; opacity: 0.55; margin-top: 4px; }
+
+/* FILTROS */
+.filtros { background: rgba(255,255,255,0.07); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.12); border-radius: 14px; padding: 18px 20px; margin-bottom: 28px; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 14px; }
 .filtro-grupo { display: flex; flex-direction: column; gap: 6px; }
-.filtro-grupo label { font-size: 0.78em; font-weight: 600; color: #666; text-transform: uppercase; letter-spacing: 0.5px; }
-.filtro-grupo select, .filtro-grupo input { padding: 10px 12px; border: 2px solid #e5e7eb; border-radius: 8px; font-size: 0.95em; outline: none; }
-.filtro-grupo select:focus, .filtro-grupo input:focus { border-color: #667eea; }
-.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin-bottom: 40px; }
-.stat-card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; }
-.stat-card h3 { color: #666; font-size: 0.9em; text-transform: uppercase; margin-bottom: 10px; }
-.stat-card .value { font-size: 2em; font-weight: bold; color: #667eea; }
-.dashboard { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-bottom: 40px; }
-.person-section { background: white; border-radius: 15px; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
-.person-header { display: flex; align-items: center; margin-bottom: 25px; padding-bottom: 20px; border-bottom: 3px solid #eee; }
-.person-avatar { width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 28px; font-weight: bold; margin-right: 15px; }
-.person-info h2 { font-size: 1.5em; margin-bottom: 5px; }
-.person-info .progress { font-size: 0.9em; color: #666; }
-.livro { margin-bottom: 25px; border-left: 4px solid #ddd; padding-left: 15px; }
-.livro-titulo { font-size: 1.1em; font-weight: bold; color: #333; margin-bottom: 12px; }
-.coordenador { margin-bottom: 12px; padding: 10px; background: #f8f9fa; border-radius: 6px; }
-.coordenador-nome { font-size: 0.9em; color: #666; font-weight: 600; margin-bottom: 8px; }
-.autor-list { display: flex; flex-direction: column; gap: 6px; }
-.autor-item { display: flex; align-items: center; justify-content: space-between; padding: 8px 10px; background: white; border-radius: 4px; font-size: 0.85em; }
-.autor-name { flex: 1; }
-.status-badge { display: inline-flex; align-items: center; gap: 5px; padding: 4px 10px; border-radius: 20px; font-size: 0.8em; font-weight: 600; margin-right: 8px; }
-.status-concluido { background: #D1FAE5; color: #065F46; }
-.status-pendente { background: #FEF3C7; color: #92400E; }
-.status-erro { background: #FEE2E2; color: #991B1B; }
-.data { font-size: 0.75em; color: #999; }
-.vazio { text-align: center; color: #aaa; padding: 20px; font-style: italic; }
-.footer { text-align: center; color: white; padding: 20px; opacity: 0.8; }
-@media (max-width: 1024px) { .dashboard { grid-template-columns: 1fr; } .filtros { grid-template-columns: 1fr; } .header h1 { font-size: 1.8em; } }
-.total-creditos { font-size: 0.85em; color: #666; margin-top: 5px; }
+.filtro-grupo label { font-size: 0.72em; font-weight: 600; color: rgba(255,255,255,0.5); text-transform: uppercase; letter-spacing: 0.5px; }
+.filtro-grupo select, .filtro-grupo input { padding: 9px 12px; border: 1px solid rgba(255,255,255,0.2); border-radius: 8px; font-size: 0.9em; outline: none; background: rgba(255,255,255,0.1); color: white; }
+.filtro-grupo select option { background: #302b63; color: white; }
+
+/* LIVROS GRID */
+.livros-grid { display: grid; grid-template-columns: 1fr; gap: 20px; }
+
+/* LIVRO CARD */
+.livro-card { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; overflow: hidden; }
+.livro-header { display: flex; align-items: center; justify-content: space-between; padding: 18px 22px; border-bottom: 1px solid rgba(255,255,255,0.08); }
+.livro-nome { font-size: 1.05em; font-weight: 700; color: white; }
+.livro-meta { display: flex; gap: 12px; align-items: center; }
+.pill { font-size: 0.75em; font-weight: 600; padding: 4px 12px; border-radius: 20px; }
+.pill-verde { background: rgba(52,211,153,0.15); color: #34d399; border: 1px solid rgba(52,211,153,0.3); }
+.pill-amarelo { background: rgba(251,191,36,0.15); color: #fbbf24; border: 1px solid rgba(251,191,36,0.3); }
+.pill-azul { background: rgba(96,165,250,0.15); color: #60a5fa; border: 1px solid rgba(96,165,250,0.3); }
+.pill-vermelho { background: rgba(248,113,113,0.15); color: #f87171; border: 1px solid rgba(248,113,113,0.3); }
+
+/* COORDENADORES */
+.coords-list { padding: 16px 22px; display: flex; flex-direction: column; gap: 12px; }
+.coord-block { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; overflow: hidden; }
+.coord-header { display: flex; align-items: center; justify-content: space-between; padding: 12px 16px; cursor: pointer; user-select: none; }
+.coord-header:hover { background: rgba(255,255,255,0.04); }
+.coord-nome { font-size: 0.85em; font-weight: 700; color: rgba(255,255,255,0.85); }
+.coord-badges { display: flex; gap: 8px; }
+.coord-body { display: none; padding: 0 12px 12px; }
+.coord-body.open { display: block; }
+
+/* AUTOR ITEM */
+.autor-grid { display: grid; grid-template-columns: 1fr auto auto; gap: 8px; align-items: center; padding: 7px 10px; border-radius: 8px; font-size: 0.82em; }
+.autor-grid:hover { background: rgba(255,255,255,0.04); }
+.autor-nome { color: rgba(255,255,255,0.85); }
+.autor-nome.pendente { color: rgba(255,255,255,0.4); font-style: italic; }
+.badges { display: flex; gap: 5px; align-items: center; }
+.badge { display: inline-flex; align-items: center; gap: 3px; padding: 3px 8px; border-radius: 10px; font-size: 0.75em; font-weight: 600; white-space: nowrap; }
+.badge-ok { background: rgba(52,211,153,0.15); color: #34d399; }
+.badge-pendente { background: rgba(251,191,36,0.12); color: #fbbf24; }
+.badge-foto-ok { background: rgba(96,165,250,0.15); color: #60a5fa; }
+.badge-foto-no { background: rgba(248,113,113,0.12); color: #f87171; }
+.badge-data { background: rgba(255,255,255,0.07); color: rgba(255,255,255,0.4); font-size: 0.7em; }
+
+/* PROGRESS BAR */
+.prog-bar { height: 4px; background: rgba(255,255,255,0.1); border-radius: 2px; margin-top: 4px; }
+.prog-fill { height: 100%; border-radius: 2px; background: linear-gradient(90deg, #34d399, #60a5fa); transition: width 0.4s ease; }
+
+/* TOGGLE LABEL */
+.toggle-label { font-size: 0.72em; color: rgba(255,255,255,0.35); margin-left: 6px; }
+
+.footer { text-align: center; color: rgba(255,255,255,0.3); padding: 24px; font-size: 0.82em; }
+@media (max-width: 900px) { .filtros { grid-template-columns: 1fr 1fr; } .header h1 { font-size: 1.6em; } }
+@media (max-width: 560px) { .filtros { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body>
 <div class="container">
+
 <div class="header">
-<h1>Correcao de Livros NAB</h1>
-<p>Dashboard de Progresso - Dede vs Robert</p>
-<p id="ultima-atualizacao" style="font-size: 0.9em; margin-top: 10px;"></p>
+  <h1>Livros <span>NAB</span> — Correção</h1>
+  <p id="ultima-atualizacao">carregando...</p>
 </div>
-<div class="filtros">
-<div class="filtro-grupo"><label>Livro</label><select id="filtro-livro"><option value="">Todos os livros</option></select></div>
-<div class="filtro-grupo"><label>Coordenador</label><select id="filtro-coord"><option value="">Todos os coordenadores</option></select></div>
-<div class="filtro-grupo"><label>Buscar autor</label><input type="text" id="busca-autor" placeholder="Digite o nome do autor..."></div>
-</div>
+
 <div class="stats" id="stats-container"></div>
-<div class="dashboard">
-<div id="dede-section"></div>
-<div id="robert-section"></div>
+
+<div class="filtros">
+  <div class="filtro-grupo"><label>Livro</label><select id="filtro-livro"><option value="">Todos</option></select></div>
+  <div class="filtro-grupo"><label>Coordenador</label><select id="filtro-coord"><option value="">Todos</option></select></div>
+  <div class="filtro-grupo"><label>Status</label>
+    <select id="filtro-status">
+      <option value="">Todos</option>
+      <option value="concluido">✅ Corrigido</option>
+      <option value="pendente">⏳ Pendente</option>
+      <option value="foto-no">📷 Sem foto</option>
+      <option value="foto-ok">🖼️ Com foto</option>
+    </select>
+  </div>
+  <div class="filtro-grupo"><label>Buscar</label><input type="text" id="busca-autor" placeholder="Nome do autor..."></div>
 </div>
-<div class="footer"><p>Dashboard sincronizado com GitHub - Deploy em Vercel</p></div>
+
+<div class="livros-grid" id="livros-container"></div>
+
+<div class="footer">Dashboard sincronizado com GitHub · Vercel Auto-Deploy · <span id="ts"></span></div>
 </div>
+
 <script>
 var DADOS = null;
+
 async function loadDashboard() {
   try {
-    const response = await fetch('dados.json?t=' + Date.now());
-    DADOS = await response.json();
-    popularFiltros(DADOS);
-    aplicar();
-    const date = new Date(DADOS.ultima_atualizacao);
-    document.getElementById('ultima-atualizacao').textContent = 'Ultima atualizacao: ' + date.toLocaleDateString('pt-BR') + ' as ' + date.toLocaleTimeString('pt-BR');
-  } catch (error) { console.error('Erro:', error); }
+    const r = await fetch('dados.json?t=' + Date.now());
+    DADOS = await r.json();
+    popularFiltros();
+    render();
+    const dt = new Date(DADOS.ultima_atualizacao);
+    document.getElementById('ultima-atualizacao').textContent =
+      'Atualizado em ' + dt.toLocaleDateString('pt-BR') + ' às ' + dt.toLocaleTimeString('pt-BR');
+    document.getElementById('ts').textContent = new Date().toLocaleTimeString('pt-BR');
+  } catch(e) { console.error(e); }
 }
-function popularFiltros(data) {
+
+function todos_autores(pessoa) {
+  var list = [];
+  pessoa.livros.forEach(function(l){ l.coordenadores.forEach(function(c){ c.autores.forEach(function(a){ list.push(a); }); }); });
+  return list;
+}
+
+function popularFiltros() {
   var livros = {}, coords = {};
-  [data.dede, data.robert].forEach(function(p) {
-    p.livros.forEach(function(livro) {
-      livros[livro.nome] = true;
-      livro.coordenadores.forEach(function(coord) { coords[coord.nome] = true; });
-    });
+  DADOS.dede.livros.forEach(function(l) {
+    livros[l.nome] = true;
+    l.coordenadores.forEach(function(c){ coords[c.nome] = true; });
   });
-  preencherSelect('filtro-livro', Object.keys(livros), 'Todos os livros');
-  preencherSelect('filtro-coord', Object.keys(coords), 'Todos os coordenadores');
+  fillSelect('filtro-livro', Object.keys(livros), 'Todos');
+  fillSelect('filtro-coord', Object.keys(coords), 'Todos');
 }
-function preencherSelect(id, valores, labelTodos) {
-  var sel = document.getElementById(id), atual = sel.value;
-  sel.innerHTML = '<option value="">' + labelTodos + '</option>';
-  valores.forEach(function(v) { var o = document.createElement('option'); o.value = v; o.textContent = v; sel.appendChild(o); });
-  sel.value = atual;
+
+function fillSelect(id, vals, label) {
+  var s = document.getElementById(id), cur = s.value;
+  s.innerHTML = '<option value="">' + label + '</option>';
+  vals.forEach(function(v){ var o = document.createElement('option'); o.value = v; o.textContent = v; s.appendChild(o); });
+  s.value = cur;
 }
+
 function getFiltros() {
-  return { livro: document.getElementById('filtro-livro').value, coord: document.getElementById('filtro-coord').value, autor: document.getElementById('busca-autor').value.trim().toLowerCase() };
+  return {
+    livro: document.getElementById('filtro-livro').value,
+    coord: document.getElementById('filtro-coord').value,
+    status: document.getElementById('filtro-status').value,
+    busca: document.getElementById('busca-autor').value.trim().toLowerCase()
+  };
 }
-function aplicar() {
+
+function render() {
   if (!DADOS) return;
   var f = getFiltros();
-  renderStats(DADOS);
-  renderPerson('dede', DADOS.dede, '#dede-section', f);
-  renderPerson('robert', DADOS.robert, '#robert-section', f);
+  renderStats();
+  renderLivros(f);
 }
-function renderStats(data) {
-  const stats = document.getElementById('stats-container');
-  const dt = countStatus(data.dede, 'concluido'), da = countTotal(data.dede);
-  const rt = countStatus(data.robert, 'concluido'), ra = countTotal(data.robert);
-  const tc = calculateCreditos(data.dede) + calculateCreditos(data.robert);
-  stats.innerHTML = '<div class="stat-card"><h3>Dede</h3><div class="value">' + dt + '/' + da + '</div><div class="total-creditos">R$ ' + (calculateCreditos(data.dede) * 0.03).toFixed(2) + '</div></div><div class="stat-card"><h3>Robert</h3><div class="value">' + rt + '/' + ra + '</div><div class="total-creditos">R$ ' + (calculateCreditos(data.robert) * 0.03).toFixed(2) + '</div></div><div class="stat-card"><h3>Total</h3><div class="value">' + (dt + rt) + '/' + (da + ra) + '</div><div class="total-creditos">R$ ' + (tc * 0.03).toFixed(2) + '</div></div>';
+
+function renderStats() {
+  var autores = todos_autores(DADOS.dede);
+  var total = autores.length;
+  var concluidos = autores.filter(function(a){ return a.status === 'concluido'; }).length;
+  var pendentes = total - concluidos;
+  var comFoto = autores.filter(function(a){ return a.foto === true; }).length;
+  var semFoto = total - comFoto;
+  var creditos = autores.reduce(function(s, a){ return s + (a.creditos || 0); }, 0);
+
+  document.getElementById('stats-container').innerHTML =
+    card('Corrigidos', concluidos + '/' + total, 'green', 'capítulos revisados') +
+    card('Pendentes', pendentes, 'yellow', 'aguardando capítulo') +
+    card('Com Foto', comFoto + '/' + total, 'blue', 'fotos recebidas') +
+    card('Sem Foto', semFoto, 'red', 'fotos em falta') +
+    card('Créditos', creditos.toFixed(0), 'green', 'R$ ' + (creditos * 0.03).toFixed(2));
 }
-function renderPerson(name, person, selector, f) {
-  const section = document.querySelector(selector);
-  const cor = name === 'dede' ? '#3B82F6' : '#EF4444';
-  let livrosHTML = '', total = 0, concluidos = 0;
-  person.livros.forEach(function(livro) {
+
+function card(label, val, cor, sub) {
+  return '<div class="stat-card"><h3>' + label + '</h3><div class="value ' + cor + '">' + val + '</div><div class="sub">' + sub + '</div></div>';
+}
+
+function passaFiltro(autor, f) {
+  if (f.busca && autor.nome.toLowerCase().indexOf(f.busca) === -1) return false;
+  if (f.status === 'concluido' && autor.status !== 'concluido') return false;
+  if (f.status === 'pendente' && autor.status !== 'pendente') return false;
+  if (f.status === 'foto-ok' && !autor.foto) return false;
+  if (f.status === 'foto-no' && autor.foto) return false;
+  return true;
+}
+
+function renderLivros(f) {
+  var container = document.getElementById('livros-container');
+  var html = '';
+
+  DADOS.dede.livros.forEach(function(livro) {
     if (f.livro && livro.nome !== f.livro) return;
+
     var coordsHTML = '';
+    var livroTotal = 0, livroConcluidos = 0, livroFotos = 0;
+
     livro.coordenadores.forEach(function(coord) {
       if (f.coord && coord.nome !== f.coord) return;
+
       var autoresHTML = '';
+      var cTotal = coord.autores.length;
+      var cConc = 0, cFotos = 0;
+
       coord.autores.forEach(function(autor) {
-        total++;
-        if (autor.status === 'concluido') concluidos++;
-        if (f.autor && autor.nome.toLowerCase().indexOf(f.autor) === -1) return;
-        var emoji = autor.status === 'concluido' ? 'OK' : '...';
-        var ds = autor.data ? '<span class="data">' + autor.data + '</span>' : '';
-        autoresHTML += '<div class="autor-item"><span class="autor-name">' + autor.nome + '</span><span class="status-badge status-' + autor.status + '">' + emoji + '</span>' + ds + '</div>';
+        livroTotal++;
+        if (autor.status === 'concluido') { livroConcluidos++; cConc++; }
+        if (autor.foto) { livroFotos++; cFotos++; }
+
+        if (!passaFiltro(autor, f)) return;
+
+        var nomeCls = autor.status === 'concluido' ? 'autor-nome' : 'autor-nome pendente';
+        var badgeStatus = autor.status === 'concluido'
+          ? '<span class="badge badge-ok">✅ OK</span>'
+          : '<span class="badge badge-pendente">⏳</span>';
+        var badgeFoto = autor.foto
+          ? '<span class="badge badge-foto-ok">📷</span>'
+          : '<span class="badge badge-foto-no">📷 falta</span>';
+        var badgeData = autor.data ? '<span class="badge badge-data">' + autor.data + '</span>' : '';
+
+        autoresHTML += '<div class="autor-grid">' +
+          '<span class="' + nomeCls + '">' + autor.nome + '</span>' +
+          '<div class="badges">' + badgeStatus + badgeFoto + '</div>' +
+          badgeData +
+          '</div>';
       });
-      if (autoresHTML) coordsHTML += '<div class="coordenador"><div class="coordenador-nome">' + coord.nome + '</div><div class="autor-list">' + autoresHTML + '</div></div>';
+
+      var progPct = cTotal > 0 ? Math.round(cConc / cTotal * 100) : 0;
+      var coordId = 'coord-' + Math.random().toString(36).slice(2);
+
+      coordsHTML += '<div class="coord-block">' +
+        '<div class="coord-header" onclick="toggleCoord(\'' + coordId + '\')">' +
+          '<span class="coord-nome">' + coord.nome + '</span>' +
+          '<div class="coord-badges">' +
+            '<span class="pill pill-verde">' + cConc + '/' + cTotal + ' corr</span>' +
+            '<span class="pill pill-azul">📷 ' + cFotos + '/' + cTotal + '</span>' +
+            '<span class="toggle-label" id="lbl-' + coordId + '">▶ expandir</span>' +
+          '</div>' +
+        '</div>' +
+        '<div class="coord-body" id="' + coordId + '">' +
+          '<div class="prog-bar"><div class="prog-fill" style="width:' + progPct + '%"></div></div>' +
+          (autoresHTML || '<p style="color:rgba(255,255,255,0.3);font-size:0.8em;padding:10px 0;">Nenhum resultado</p>') +
+        '</div>' +
+      '</div>';
     });
-    if (coordsHTML) livrosHTML += '<div class="livro" style="border-left-color: ' + cor + ';"><div class="livro-titulo">' + livro.nome + '</div>' + coordsHTML + '</div>';
+
+    if (!coordsHTML) return;
+
+    var progLivro = livroTotal > 0 ? Math.round(livroConcluidos / livroTotal * 100) : 0;
+    html += '<div class="livro-card">' +
+      '<div class="livro-header">' +
+        '<div>' +
+          '<div class="livro-nome">' + livro.nome + '</div>' +
+          '<div class="prog-bar" style="margin-top:8px;width:220px"><div class="prog-fill" style="width:' + progLivro + '%"></div></div>' +
+        '</div>' +
+        '<div class="livro-meta">' +
+          '<span class="pill pill-verde">' + livroConcluidos + '/' + livroTotal + ' corrigidos</span>' +
+          '<span class="pill pill-azul">📷 ' + livroFotos + '/' + livroTotal + '</span>' +
+          '<span class="pill ' + (livroTotal - livroConcluidos > 0 ? 'pill-amarelo' : 'pill-verde') + '">' + (livroTotal - livroConcluidos) + ' pendentes</span>' +
+        '</div>' +
+      '</div>' +
+      '<div class="coords-list">' + coordsHTML + '</div>' +
+    '</div>';
   });
-  if (!livrosHTML) livrosHTML = '<div class="vazio">Nenhum resultado para os filtros aplicados.</div>';
-  section.innerHTML = '<div class="person-section"><div class="person-header"><div class="person-avatar" style="background: ' + cor + ';">' + person.nome.charAt(0) + '</div><div class="person-info"><h2>' + person.nome + '</h2><div class="progress">' + concluidos + '/' + total + ' concluidos</div></div></div>' + livrosHTML + '</div>';
+
+  container.innerHTML = html || '<p style="color:rgba(255,255,255,0.4);text-align:center;padding:40px;">Nenhum resultado.</p>';
 }
-function countStatus(person, status) { var c = 0; person.livros.forEach(function(l){ l.coordenadores.forEach(function(co){ c += co.autores.filter(function(a){return a.status === status;}).length; }); }); return c; }
-function countTotal(person) { var c = 0; person.livros.forEach(function(l){ l.coordenadores.forEach(function(co){ c += co.autores.length; }); }); return c; }
-function calculateCreditos(person) { var t = 0; person.livros.forEach(function(l){ l.coordenadores.forEach(function(co){ co.autores.forEach(function(a){ t += a.creditos || 0; }); }); }); return t; }
-document.getElementById('filtro-livro').addEventListener('change', aplicar);
-document.getElementById('filtro-coord').addEventListener('change', aplicar);
-document.getElementById('busca-autor').addEventListener('input', aplicar);
+
+function toggleCoord(id) {
+  var el = document.getElementById(id);
+  var lbl = document.getElementById('lbl-' + id);
+  if (el.classList.contains('open')) {
+    el.classList.remove('open');
+    lbl.textContent = '▶ expandir';
+  } else {
+    el.classList.add('open');
+    lbl.textContent = '▼ recolher';
+  }
+}
+
+['filtro-livro','filtro-coord','filtro-status'].forEach(function(id){
+  document.getElementById(id).addEventListener('change', render);
+});
+document.getElementById('busca-autor').addEventListener('input', render);
+
 loadDashboard();
-setInterval(loadDashboard, 30000);
+setInterval(loadDashboard, 60000);
 </script>
 </body>
 </html>
