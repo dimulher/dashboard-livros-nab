@@ -187,7 +187,7 @@ function renderStats() {
   var pendentes = total - concluidos;
   var comFoto = allA.filter(function(a){ return a.foto === true; }).length;
   var semFoto = total - comFoto;
-  var creditos = ad.reduce(function(s,a){ return s+(a.creditos||0); },0);
+  var creditos = allA.reduce(function(s,a){ return s+(a.creditos||0); },0);
 
   document.getElementById('stats-container').innerHTML =
     card('Corrigidos', concluidos + '/' + total, 'green', 'capítulos revisados') +
