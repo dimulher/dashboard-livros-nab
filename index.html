@@ -116,9 +116,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
   <div class="filtro-grupo"><label>Buscar</label><input type="text" id="busca-autor" placeholder="Nome do autor..."></div>
 </div>
 
-<div class="pessoas-grid">
+<div class="pessoas-grid" style="grid-template-columns:1fr">
   <div class="pessoa-col" id="col-dede"></div>
-  <div class="pessoa-col" id="col-robert"></div>
 </div>
 
 <div class="footer">Dashboard sincronizado com GitHub · Vercel Auto-Deploy · <span id="ts"></span></div>
@@ -179,7 +178,6 @@ function render() {
   var f = getFiltros();
   renderStats();
   renderPessoa(DADOS.dede, 'col-dede', '#a78bfa', f);
-  renderPessoa(DADOS.robert, 'col-robert', '#f87171', f);
 }
 
 function renderStats() {
