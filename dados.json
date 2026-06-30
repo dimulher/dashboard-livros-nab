@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-06-25T11:00:00Z",
+  "ultima_atualizacao": "2026-06-30T10:58:32.324128",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -1147,6 +1147,888 @@
                 "data": null,
                 "creditos": 0,
                 "foto": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "entre-chaves-sonhos",
+        "nome": "Entre Chaves e Sonhos",
+        "total_capitulos": 0,
+        "coordenadores": []
+      },
+      {
+        "id": "gigantes-so-mulheres",
+        "nome": "Gigantes Nascem da Queda - So Mulheres",
+        "total_capitulos": 28,
+        "coordenadores": [
+          {
+            "id": "coord-cida-montijo",
+            "nome": "COORD-Cida Montijo",
+            "autores": [
+              {
+                "nome": "Andrea Angelini de Oliveira",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Edna Oliveira Ferreira Araujo",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Gleysse Cunha Paolinelli",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Sandra da Silva Santos",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Silmara Guadarin",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              }
+            ]
+          },
+          {
+            "id": "coord-isabel-tonetto",
+            "nome": "COORD-Isabel Tonetto",
+            "autores": [
+              {
+                "nome": "Diulena Maria de Sousa",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Sara Lisa Cipresso Pereira",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              }
+            ]
+          },
+          {
+            "id": "coord-juraci",
+            "nome": "COORD-Juraci",
+            "autores": [
+              {
+                "nome": "Joana Darck de Oliveira Pires",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Roseli Maria de Santana",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              }
+            ]
+          },
+          {
+            "id": "coord-meri-mogoga",
+            "nome": "COORD-Meri Mogoga",
+            "autores": [
+              {
+                "nome": "Adriane",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Amanda Carlos Gomes Bravo",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Ana Laura Vargas",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Iara Bergel",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Madalena Albuquerque",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Marli Alejandro",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Rosangela Ferreira de Andrade",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Sonia Alves",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Tania Maia",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Valquiria Silva",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Veronica Germano Martins Araujo",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              }
+            ]
+          },
+          {
+            "id": "coord-rosilene-almeida",
+            "nome": "COORD-Rosilene Almeida",
+            "autores": [
+              {
+                "nome": "Bernadete Cavalcante Nascimento",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Emile Rosana de Lima Lima",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Lucila Anunciacao Correia",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Maria de Fatima Hanaque Campos",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Saint Clair Cezar",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Virginia Oliveira Santos",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              }
+            ]
+          },
+          {
+            "id": "indicacoes-maria-cecilia",
+            "nome": "INDICACOES-Maria Cecilia",
+            "autores": [
+              {
+                "nome": "Yasmin Bastos Rosa",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              }
+            ]
+          },
+          {
+            "id": "indicacoes-maria-lucia",
+            "nome": "INDICACOES-Maria Lucia",
+            "autores": [
+              {
+                "nome": "Claudilene Leite Gomes",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "herois-v10-sp",
+        "nome": "Herois Implacaveis V10 SP",
+        "total_capitulos": 26,
+        "coordenadores": [
+          {
+            "id": "coord-alice",
+            "nome": "COORD-Alice",
+            "autores": [
+              {
+                "nome": "Leomar Oliveira Campos",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              }
+            ]
+          },
+          {
+            "id": "coord-caio-henrique-quintero-castelo-branco",
+            "nome": "COORD-Caio Henrique Quintero Castelo Branco",
+            "autores": [
+              {
+                "nome": "Lucio Jose de Azevedo Lucena",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Luiza Maria Aragao Pontes",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Maria Gorete Oliveira de Sousa",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              }
+            ]
+          },
+          {
+            "id": "coord-luis-caversan",
+            "nome": "COORD-Luis Caversan",
+            "autores": [
+              {
+                "nome": "Ederson Alves Machado",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Gisele Alves Costanza Caversan",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Kaique Nunes Pereira",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Ketilyn Karina Ortega Canzano",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Maerley P Costa",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Marcus Vinicius Severo",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Taisa Fatima Casimiro Sanches",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Teresa Cristina Lala dos Santos Faria",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Vanessa de Paula Moreira Oliveira",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              }
+            ]
+          },
+          {
+            "id": "coord-neriane-conceicao",
+            "nome": "COORD-Neriane Conceicao",
+            "autores": [
+              {
+                "nome": "Claudia Maria Eberhardt Thomas",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Francieli Giraldon Hammerschmitt",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Meg Andrade",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Rosmaite Immich",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Walda Shirley Paes Moura de Menezes",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              }
+            ]
+          },
+          {
+            "id": "coord-rademar",
+            "nome": "COORD-Rademar",
+            "autores": [
+              {
+                "nome": "Rademar",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              }
+            ]
+          },
+          {
+            "id": "coord-rosane-menegueli",
+            "nome": "COORD-Rosane Menegueli",
+            "autores": [
+              {
+                "nome": "Ediana Cristina Nascimento",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Liliane Carneiro Costa",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Livia Carolina Arruda Andrade",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Marcia Lima",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Maria Brigida Maia Matos",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Rosangela Fraga de Souza",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Sabrina Santos da Conceicao",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mulheres-essenciais",
+        "nome": "Mulheres Essenciais",
+        "total_capitulos": 27,
+        "coordenadores": [
+          {
+            "id": "coord-lu-santos",
+            "nome": "COORD-Lu Santos",
+            "autores": [
+              {
+                "nome": "Ana Claudia Silva Melo",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Bruna Francielly Rodrigues Feres",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Cleonice Vilma dos Santos Almeida",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Glaucia",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Katia Barbosa de Lima Rocha",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Lorena Rayalla",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Luciane Johanson Lelis da Silva",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Lucilene Felipe dos Santos",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Nelise Duarte de Sousa Taia",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Renata",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              }
+            ]
+          },
+          {
+            "id": "coord-rose-rozendo",
+            "nome": "COORD-Rose Rozendo",
+            "autores": [
+              {
+                "nome": "Cibeli Marques Bannitz Egger",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Constantina Abreu",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Gildete Farias Conceicao",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Isabel Elias",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Katia Regina",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Regina Celia Santos Rocha",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Simoni Luduvice",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Zilanda Amim Palacin",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Zilanda Amim Palacin - 2 capitulo",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              }
+            ]
+          },
+          {
+            "id": "coord-zenaira",
+            "nome": "COORD-Zenaira",
+            "autores": [
+              {
+                "nome": "Atenilda da Silva Alves",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Ivelise Amorim",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Joana Carmen do Nascimento Machado",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Maria Carmelita Nery Rodrigues",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Maria Silvana de Sousa Santos",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Meryellen Da Gama e Silva dos Santos",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Raquel Garcia Coelho",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Sandra Nascimento",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "poder-conhecer-direitos-pt",
+        "nome": "O Poder de Conhecer Seus Direitos - PT",
+        "total_capitulos": 23,
+        "coordenadores": [
+          {
+            "id": "coord-poliana-quites",
+            "nome": "COORD-Poliana Quites",
+            "autores": [
+              {
+                "nome": "Ana Elisa Silva Braz",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Claudia Marques de Macedo",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Perla Christiane de Araujo",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Sabrina Fernanda Baeta Tergilene",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              }
+            ]
+          },
+          {
+            "id": "coord-roseane-menegueli",
+            "nome": "COORD-Roseane Menegueli",
+            "autores": [
+              {
+                "nome": "Diego Henrique",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Dr Henrique Fernando",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Dr Ricardo Zavat",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Hildo Cristiano",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Jeanine Romano",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Jefferson",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Rose Rozendo",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Simoni Ludovic",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              }
+            ]
+          },
+          {
+            "id": "coord-rubens",
+            "nome": "COORD-Rubens",
+            "autores": [
+              {
+                "nome": "Alexandre de Menezes Simao",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Lidiane Praxedes de Oliveira",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Liliane Ikenaga",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Maria das Dores",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Rubens Neuber de Souza Junior",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              }
+            ]
+          },
+          {
+            "id": "coord-thiago-jordao",
+            "nome": "COORD-Thiago Jordao",
+            "autores": [
+              {
+                "nome": "Cibeli Marques Bannitz Egger",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Flavia Magalhaes Artilheiro",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Flavia Magalhaes Artilheiro - 2 capitulo",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Jeanine Nunes Romano",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Shanasis Emanuelle de Oliveira Squillaci",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Shanasis Emanuelle de Oliveira Squillaci - 2 capitulo",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
               }
             ]
           }
