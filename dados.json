@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-06-30T10:58:32.324128",
+  "ultima_atualizacao": "2026-06-30T14:56:31.721777",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -1210,17 +1210,17 @@
             "autores": [
               {
                 "nome": "Diulena Maria de Sousa",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 1.0
               },
               {
                 "nome": "Sara Lisa Cipresso Pereira",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 15.0
               }
             ]
           },
@@ -1333,45 +1333,45 @@
             "autores": [
               {
                 "nome": "Bernadete Cavalcante Nascimento",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 2.0
               },
               {
                 "nome": "Emile Rosana de Lima Lima",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 6.0
               },
               {
                 "nome": "Lucila Anunciacao Correia",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 9.0
               },
               {
                 "nome": "Maria de Fatima Hanaque Campos",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 8.0
               },
               {
                 "nome": "Saint Clair Cezar",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 3.0
               },
               {
                 "nome": "Virginia Oliveira Santos",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 2.0
               }
             ]
           },
@@ -1530,24 +1530,24 @@
               },
               {
                 "nome": "Francieli Giraldon Hammerschmitt",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 2.0
               },
               {
                 "nome": "Meg Andrade",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 2.0
               },
               {
                 "nome": "Rosmaite Immich",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 4.0
               },
               {
                 "nome": "Walda Shirley Paes Moura de Menezes",
@@ -1598,10 +1598,10 @@
               },
               {
                 "nome": "Marcia Lima",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 2.0
               },
               {
                 "nome": "Maria Brigida Maia Matos",
@@ -1612,10 +1612,10 @@
               },
               {
                 "nome": "Rosangela Fraga de Souza",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 6.0
               },
               {
                 "nome": "Sabrina Santos da Conceicao",
@@ -1646,10 +1646,10 @@
               },
               {
                 "nome": "Bruna Francielly Rodrigues Feres",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 4.0
               },
               {
                 "nome": "Cleonice Vilma dos Santos Almeida",
@@ -1722,24 +1722,24 @@
               },
               {
                 "nome": "Constantina Abreu",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 2.0
               },
               {
                 "nome": "Gildete Farias Conceicao",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 9.0
               },
               {
                 "nome": "Isabel Elias",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 6.0
               },
               {
                 "nome": "Katia Regina",
@@ -1750,17 +1750,17 @@
               },
               {
                 "nome": "Regina Celia Santos Rocha",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 7.0
               },
               {
                 "nome": "Simoni Luduvice",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 8.0
               },
               {
                 "nome": "Zilanda Amim Palacin",
@@ -1784,10 +1784,10 @@
             "autores": [
               {
                 "nome": "Atenilda da Silva Alves",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 6.0
               },
               {
                 "nome": "Ivelise Amorim",
@@ -1812,17 +1812,17 @@
               },
               {
                 "nome": "Maria Silvana de Sousa Santos",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 4.0
               },
               {
                 "nome": "Meryellen Da Gama e Silva dos Santos",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 7.0
               },
               {
                 "nome": "Raquel Garcia Coelho",
@@ -1990,10 +1990,10 @@
             "autores": [
               {
                 "nome": "Cibeli Marques Bannitz Egger",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 6.0
               },
               {
                 "nome": "Flavia Magalhaes Artilheiro",
@@ -2011,17 +2011,17 @@
               },
               {
                 "nome": "Jeanine Nunes Romano",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 7.0
               },
               {
                 "nome": "Shanasis Emanuelle de Oliveira Squillaci",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-06-30",
+                "creditos": 3.0
               },
               {
                 "nome": "Shanasis Emanuelle de Oliveira Squillaci - 2 capitulo",
