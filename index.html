@@ -147,7 +147,7 @@ function todos_autores(pessoa) {
 
 function popularFiltros() {
   var livros = {}, coords = {};
-  [DADOS.dede, DADOS.robert].forEach(function(p) {
+  [DADOS.dede].forEach(function(p) {
     p.livros.forEach(function(l) {
       livros[l.nome] = true;
       l.coordenadores.forEach(function(c){ coords[c.nome] = true; });
@@ -181,8 +181,7 @@ function render() {
 }
 
 function renderStats() {
-  var ad = todos_autores(DADOS.dede), ar = todos_autores(DADOS.robert);
-  var allA = ad.concat(ar);
+  var allA = todos_autores(DADOS.dede);
   var total = allA.length;
   var concluidos = allA.filter(function(a){ return a.status === 'concluido'; }).length;
   var pendentes = total - concluidos;
