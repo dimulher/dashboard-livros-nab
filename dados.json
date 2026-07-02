@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-02T11:25:56.729376",
+  "ultima_atualizacao": "2026-07-02T11:31:01.835242",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -2051,31 +2051,31 @@
             "autores": [
               {
                 "nome": "Ana Elisa Silva Braz",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-02",
+                "creditos": 3
               },
               {
                 "nome": "Claudia Marques de Macedo",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
+                "data": "2026-07-02",
                 "creditos": 0
               },
               {
                 "nome": "Perla Christiane de Araujo",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-02",
+                "creditos": 10
               },
               {
                 "nome": "Sabrina Fernanda Baeta Tergilene",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-02",
+                "creditos": 10
               }
             ]
           },
@@ -2227,6 +2227,13 @@
                 "foto": false,
                 "data": null,
                 "creditos": 0
+              },
+              {
+                "nome": "hellen claudia",
+                "status": "concluido",
+                "foto": false,
+                "data": "2026-07-02",
+                "creditos": 2
               }
             ]
           }
