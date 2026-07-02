@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-06-30T14:56:31.721777",
+  "ultima_atualizacao": "2026-07-02T10:29:10.176279",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -1101,9 +1101,9 @@
               },
               {
                 "nome": "Gabriel Charlyson Santana Pereira da Silva",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
+                "status": "concluido",
+                "data": "2026-07-02",
+                "creditos": 1,
                 "foto": false
               },
               {
@@ -1122,31 +1122,94 @@
               },
               {
                 "nome": "Lana Caroline Marques Mota",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
+                "status": "concluido",
+                "data": "2026-07-02",
+                "creditos": 5,
                 "foto": false
               },
               {
                 "nome": "Matheus Goncalves Estevao",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
+                "status": "concluido",
+                "data": "2026-07-02",
+                "creditos": 2,
                 "foto": false
               },
               {
                 "nome": "Raiane Danielle de Souza Neponoceno Silva",
-                "status": "pendente",
-                "data": null,
+                "status": "concluido",
+                "data": "2026-07-02",
                 "creditos": 0,
                 "foto": false
               },
               {
                 "nome": "Walmir Rocha Lopes",
-                "status": "pendente",
-                "data": null,
+                "status": "concluido",
+                "data": "2026-07-02",
                 "creditos": 0,
                 "foto": false
+              },
+              {
+                "nome": "adriane miranda",
+                "status": "concluido",
+                "foto": false,
+                "data": "2026-07-02",
+                "creditos": 1
+              },
+              {
+                "nome": "bruno daniel",
+                "status": "concluido",
+                "foto": false,
+                "data": "2026-07-02",
+                "creditos": 2
+              },
+              {
+                "nome": "durval queiroz",
+                "status": "concluido",
+                "foto": false,
+                "data": "2026-07-02",
+                "creditos": 2
+              },
+              {
+                "nome": "gabriel oliveira",
+                "status": "concluido",
+                "foto": false,
+                "data": "2026-07-02",
+                "creditos": 2
+              },
+              {
+                "nome": "jeferson santos",
+                "status": "concluido",
+                "foto": false,
+                "data": "2026-07-02",
+                "creditos": 3
+              },
+              {
+                "nome": "lylian mara",
+                "status": "concluido",
+                "foto": false,
+                "data": "2026-07-02",
+                "creditos": 11
+              },
+              {
+                "nome": "Pedro Fiuza",
+                "status": "concluido",
+                "foto": false,
+                "data": "2026-07-02",
+                "creditos": 5
+              },
+              {
+                "nome": "rafael miranda",
+                "status": "concluido",
+                "foto": false,
+                "data": "2026-07-02",
+                "creditos": 4
+              },
+              {
+                "nome": "samuel brito",
+                "status": "concluido",
+                "foto": false,
+                "data": "2026-07-02",
+                "creditos": 0
               }
             ]
           }
