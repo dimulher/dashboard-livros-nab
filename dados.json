@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-02T10:47:48.510116",
+  "ultima_atualizacao": "2026-07-02T10:53:48.052238",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -1357,10 +1357,10 @@
               },
               {
                 "nome": "Ana Laura Vargas",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-02",
+                "creditos": 3
               },
               {
                 "nome": "Iara Bergel",
@@ -1378,10 +1378,10 @@
               },
               {
                 "nome": "Marli Alejandro",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-02",
+                "creditos": 2
               },
               {
                 "nome": "Rosangela Ferreira de Andrade",
@@ -1406,17 +1406,17 @@
               },
               {
                 "nome": "Valquiria Silva",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-02",
+                "creditos": 9
               },
               {
                 "nome": "Veronica Germano Martins Araujo",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-02",
+                "creditos": 17
               }
             ]
           },
