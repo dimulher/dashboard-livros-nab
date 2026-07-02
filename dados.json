@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-02T11:51:43.437711",
+  "ultima_atualizacao": "2026-07-02T12:08:07.940792",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -60,7 +60,7 @@
                 "status": "concluido",
                 "data": "2026-06-24",
                 "creditos": 3.2,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Gizely Delmonico",
@@ -128,21 +128,21 @@
               {
                 "nome": "fabricia gedoz",
                 "status": "concluido",
-                "foto": true,
+                "foto": false,
                 "data": "2026-07-02",
                 "creditos": 9
               },
               {
                 "nome": "nadia cristina bonai",
                 "status": "concluido",
-                "foto": true,
+                "foto": false,
                 "data": "2026-07-02",
                 "creditos": 14
               },
               {
                 "nome": "paula franzoni",
                 "status": "concluido",
-                "foto": true,
+                "foto": false,
                 "data": "2026-07-02",
                 "creditos": 5
               },
@@ -337,7 +337,7 @@
                 "status": "concluido",
                 "data": "2026-07-02",
                 "creditos": 3,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Roberta Mateus Pereira",
@@ -482,14 +482,14 @@
                 "status": "concluido",
                 "data": "2026-07-02",
                 "creditos": 14,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Humberto Jander de Souza",
                 "status": "concluido",
                 "data": "2026-07-02",
                 "creditos": 2,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Joelana Magali de Oliveira",
@@ -503,7 +503,7 @@
                 "status": "concluido",
                 "data": "2026-07-02",
                 "creditos": 4,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Kerlen Teixeira do Rego Martins Ferreira",
@@ -531,14 +531,14 @@
                 "status": "concluido",
                 "data": "2026-07-02",
                 "creditos": 5,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Priscila Carla Alves",
                 "status": "concluido",
                 "data": "2026-07-02",
                 "creditos": 0,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Sabrina Andrade Novaes",
@@ -559,7 +559,7 @@
                 "status": "concluido",
                 "data": "2026-07-02",
                 "creditos": 0,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Ariane",
@@ -586,7 +586,7 @@
                 "status": "concluido",
                 "data": "2026-07-02",
                 "creditos": 8,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "rosane araujo",
@@ -701,7 +701,7 @@
                 "status": "concluido",
                 "data": "2026-07-02",
                 "creditos": 4,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Karina Davina Marcondes Barros",
@@ -727,7 +727,7 @@
               {
                 "nome": "Luciana Moreno",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-02",
                 "creditos": 7
               },
@@ -748,7 +748,7 @@
                 "status": "concluido",
                 "data": "2026-07-02",
                 "creditos": 1,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Raphael Lopes Motta",
@@ -762,7 +762,7 @@
                 "status": "concluido",
                 "data": "2026-07-02",
                 "creditos": 2,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Sandra Rita Samaritano",
@@ -872,28 +872,28 @@
                 "status": "concluido",
                 "data": "2026-07-02",
                 "creditos": 1,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Helen Caroline Grechi",
                 "status": "concluido",
                 "data": "2026-07-02",
                 "creditos": 7,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Helio Sluzek Abrao",
                 "status": "concluido",
                 "data": "2026-07-02",
                 "creditos": 0,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Jaziel Ferreira dos Santos",
                 "status": "concluido",
                 "data": "2026-07-02",
                 "creditos": 1,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Juliana Rissi da Cruz",
@@ -907,7 +907,7 @@
                 "status": "concluido",
                 "data": "2026-07-02",
                 "creditos": 0,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Marcos Roberto de Oliveira",
@@ -969,14 +969,14 @@
                 "status": "concluido",
                 "data": "2026-07-02",
                 "creditos": 0,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Erica Galhardo",
                 "status": "concluido",
                 "data": "2026-07-02",
                 "creditos": 0,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Fabiana Silva Goncalves Ferreira",
@@ -990,7 +990,7 @@
                 "status": "concluido",
                 "data": "2026-07-02",
                 "creditos": 2,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Cidinha Perez",
@@ -1030,7 +1030,7 @@
                 "status": "concluido",
                 "data": "2026-07-02",
                 "creditos": 7,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Joyce Batista de Souza",
@@ -1167,7 +1167,7 @@
                 "status": "concluido",
                 "data": "2026-07-02",
                 "creditos": 0,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Ivo Lavor",
@@ -1352,7 +1352,7 @@
                 "status": "concluido",
                 "data": "2026-06-27",
                 "creditos": 4.94,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Bruno Alexandre Capistrano de Irineu Silva",
@@ -1697,14 +1697,14 @@
               {
                 "nome": "Diulena Maria de Sousa",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-06-30",
                 "creditos": 1.0
               },
               {
                 "nome": "Sara Lisa Cipresso Pereira",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-06-30",
                 "creditos": 15.0
               },
@@ -2168,21 +2168,21 @@
               {
                 "nome": "Ana Claudia Silva Melo",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-02",
                 "creditos": 0
               },
               {
                 "nome": "Bruna Francielly Rodrigues Feres",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-06-30",
                 "creditos": 4.0
               },
               {
                 "nome": "Cleonice Vilma dos Santos Almeida",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-02",
                 "creditos": 0
               },
@@ -2196,28 +2196,28 @@
               {
                 "nome": "Katia Barbosa de Lima Rocha",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-02",
                 "creditos": 2
               },
               {
                 "nome": "Lorena Rayalla",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-02",
                 "creditos": 0
               },
               {
                 "nome": "Luciane Johanson Lelis da Silva",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-02",
                 "creditos": 7
               },
               {
                 "nome": "Lucilene Felipe dos Santos",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-02",
                 "creditos": 1
               },
@@ -2258,21 +2258,21 @@
               {
                 "nome": "Constantina Abreu",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-06-30",
                 "creditos": 2.0
               },
               {
                 "nome": "Gildete Farias Conceicao",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-06-30",
                 "creditos": 9.0
               },
               {
                 "nome": "Isabel Elias",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-06-30",
                 "creditos": 6.0
               },
@@ -2286,14 +2286,14 @@
               {
                 "nome": "Regina Celia Santos Rocha",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-06-30",
                 "creditos": 7.0
               },
               {
                 "nome": "Simoni Luduvice",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-06-30",
                 "creditos": 8.0
               },
@@ -2307,7 +2307,7 @@
               {
                 "nome": "Zilanda Amim Palacin - 2 capitulo",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-02",
                 "creditos": 4
               },
@@ -2327,7 +2327,7 @@
               {
                 "nome": "Atenilda da Silva Alves",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-06-30",
                 "creditos": 6.0
               },
@@ -2348,21 +2348,21 @@
               {
                 "nome": "Maria Carmelita Nery Rodrigues",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-02",
                 "creditos": 3
               },
               {
                 "nome": "Maria Silvana de Sousa Santos",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-06-30",
                 "creditos": 4.0
               },
               {
                 "nome": "Meryellen Da Gama e Silva dos Santos",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-06-30",
                 "creditos": 7.0
               },
