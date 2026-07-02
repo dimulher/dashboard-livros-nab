@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-02T10:43:38.767070",
+  "ultima_atualizacao": "2026-07-02T10:47:48.510116",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -571,9 +571,9 @@
               },
               {
                 "nome": "Joselane Pinheiro Moraes",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
+                "status": "concluido",
+                "data": "2026-07-02",
+                "creditos": 4,
                 "foto": false
               },
               {
@@ -599,8 +599,10 @@
               },
               {
                 "nome": "Luciana Moreno",
-                "status": "pendente",
-                "foto": false
+                "status": "concluido",
+                "foto": false,
+                "data": "2026-07-02",
+                "creditos": 7
               },
               {
                 "nome": "Luciane Alves de Carvalho Miranda",
@@ -616,9 +618,9 @@
               },
               {
                 "nome": "Pedro Sheneider",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
+                "status": "concluido",
+                "data": "2026-07-02",
+                "creditos": 1,
                 "foto": false
               },
               {
@@ -630,9 +632,9 @@
               },
               {
                 "nome": "Samir Ali Tarif",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
+                "status": "concluido",
+                "data": "2026-07-02",
+                "creditos": 2,
                 "foto": false
               },
               {
@@ -696,6 +698,13 @@
                 "data": null,
                 "creditos": 0,
                 "foto": false
+              },
+              {
+                "nome": "saionara menezes",
+                "status": "concluido",
+                "foto": false,
+                "data": "2026-07-02",
+                "creditos": 5
               }
             ]
           }
