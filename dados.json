@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-02T11:31:01.835242",
+  "ultima_atualizacao": "2026-07-02T11:51:43.437711",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -145,6 +145,62 @@
                 "foto": true,
                 "data": "2026-07-02",
                 "creditos": 5
+              },
+              {
+                "nome": "- Juliano Serotini",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
+                "creditos": 0
+              },
+              {
+                "nome": "- Sandro Botta  - Lilian - Arte Hile",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
+                "creditos": 0
+              },
+              {
+                "nome": "Cap. Carla atualizado",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
+                "creditos": 0
+              },
+              {
+                "nome": "Irene sá affolter",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
+                "creditos": 0
+              },
+              {
+                "nome": "Luana Ortiz --",
+                "status": "concluido",
+                "foto": false,
+                "data": "2026-07-02",
+                "creditos": 0
+              },
+              {
+                "nome": "Monica Tavares de Barros --",
+                "status": "concluido",
+                "foto": false,
+                "data": "2026-07-02",
+                "creditos": 0
+              },
+              {
+                "nome": "NELCI TEREZINHA",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
+                "creditos": 0
+              },
+              {
+                "nome": "Rosana Titonelli -1",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
+                "creditos": 0
               }
             ]
           },
@@ -158,6 +214,13 @@
                 "data": "2026-07-02",
                 "creditos": 2,
                 "foto": true
+              },
+              {
+                "nome": "Juraci",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
               }
             ]
           },
@@ -531,6 +594,13 @@
                 "data": "2026-07-02",
                 "creditos": 5,
                 "foto": true
+              },
+              {
+                "nome": "Matheus Souza",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
+                "creditos": 0
               }
             ]
           },
@@ -551,6 +621,13 @@
                 "data": null,
                 "creditos": 0,
                 "foto": false
+              },
+              {
+                "nome": "Zenaira",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
               }
             ]
           }
@@ -571,13 +648,28 @@
                 "data": null,
                 "creditos": 0,
                 "foto": false
+              },
+              {
+                "nome": "Fran Backer",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
               }
             ]
           },
           {
             "id": "coord-marcio",
             "nome": "Marcio Okabe",
-            "autores": []
+            "autores": [
+              {
+                "nome": "Marcio Okabe",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              }
+            ]
           },
           {
             "id": "coord-raquel",
@@ -919,6 +1011,13 @@
                 "data": null,
                 "creditos": 0,
                 "foto": false
+              },
+              {
+                "nome": "Danielle Roberta",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
               }
             ]
           },
@@ -1002,6 +1101,13 @@
                 "foto": true,
                 "data": "2026-07-02",
                 "creditos": 16
+              },
+              {
+                "nome": "dayse de souza kubis",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
               }
             ]
           },
@@ -1015,6 +1121,13 @@
                 "data": null,
                 "creditos": 0,
                 "foto": false
+              },
+              {
+                "nome": "Malu",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
               }
             ]
           },
@@ -1028,6 +1141,13 @@
                 "data": null,
                 "creditos": 0,
                 "foto": false
+              },
+              {
+                "nome": "Sonia",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
               }
             ]
           }
@@ -1057,7 +1177,7 @@
                 "foto": false
               },
               {
-                "nome": "Francisco Guilhien Gomes Junior",
+                "nome": "Dr Claudio",
                 "status": "concluido",
                 "foto": true,
                 "data": "2026-07-02",
@@ -1075,6 +1195,13 @@
                 "data": null,
                 "creditos": 0,
                 "foto": false
+              },
+              {
+                "nome": "Maria Cecilia",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
               }
             ]
           },
@@ -1102,6 +1229,13 @@
                 "data": "2026-06-27",
                 "creditos": 1.31,
                 "foto": true
+              },
+              {
+                "nome": "Raphael Freitas",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
               }
             ]
           },
@@ -1192,6 +1326,13 @@
                 "data": "2026-06-27",
                 "creditos": 1.26,
                 "foto": true
+              },
+              {
+                "nome": "Shirley Izabel",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
               }
             ]
           }
@@ -1338,6 +1479,160 @@
                 "foto": false,
                 "data": "2026-07-02",
                 "creditos": 0
+              },
+              {
+                "nome": "Eduardo Fogaca--",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Gabriel Jesus Azevedo Santos ----",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Kelvin Campos---",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "ana luisa",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "antonio -dede",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "caio zalt",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "cleo",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "erica janaina",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "gabriel- presente jorge",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "jessica",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "joci",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "lucy",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "luis fernando mendes",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "luis- anjo",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "mylene aparecida",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "nayara",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "priscila - presente jorge",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "raiane - presente jorge",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "robert",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "shirlay",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "thamires",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "walmir prefeito",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
               }
             ]
           }
@@ -1412,6 +1707,13 @@
                 "foto": false,
                 "data": "2026-06-30",
                 "creditos": 15.0
+              },
+              {
+                "nome": "isabel tonetto",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
+                "creditos": 0
               }
             ]
           },
@@ -1428,6 +1730,13 @@
               },
               {
                 "nome": "Roseli Maria de Santana",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "juraci",
                 "status": "pendente",
                 "foto": false,
                 "data": null,
@@ -1563,6 +1872,13 @@
                 "foto": false,
                 "data": "2026-06-30",
                 "creditos": 2.0
+              },
+              {
+                "nome": "rosilene araujo",
+                "status": "concluido",
+                "foto": false,
+                "data": "2026-07-02",
+                "creditos": 0
               }
             ]
           },
@@ -1572,6 +1888,13 @@
             "autores": [
               {
                 "nome": "Yasmin Bastos Rosa",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "maria cecilia",
                 "status": "pendente",
                 "foto": false,
                 "data": null,
@@ -1746,6 +2069,13 @@
                 "foto": false,
                 "data": null,
                 "creditos": 0
+              },
+              {
+                "nome": "neriane",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
               }
             ]
           },
@@ -1813,6 +2143,13 @@
                 "status": "pendente",
                 "foto": false,
                 "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "rosane menegueli",
+                "status": "concluido",
+                "foto": false,
+                "data": "2026-07-02",
                 "creditos": 0
               }
             ]
@@ -1896,6 +2233,13 @@
                 "status": "pendente",
                 "foto": false,
                 "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Renata rosa",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
                 "creditos": 0
               }
             ]
@@ -2035,6 +2379,20 @@
                 "foto": false,
                 "data": null,
                 "creditos": 0
+              },
+              {
+                "nome": "erica janaina",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "zenaria mariana",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
               }
             ]
           }
@@ -2045,40 +2403,6 @@
         "nome": "O Poder de Conhecer Seus Direitos - PT",
         "total_capitulos": 23,
         "coordenadores": [
-          {
-            "id": "coord-poliana-quites",
-            "nome": "COORD-Poliana Quites",
-            "autores": [
-              {
-                "nome": "Ana Elisa Silva Braz",
-                "status": "concluido",
-                "foto": false,
-                "data": "2026-07-02",
-                "creditos": 3
-              },
-              {
-                "nome": "Claudia Marques de Macedo",
-                "status": "concluido",
-                "foto": false,
-                "data": "2026-07-02",
-                "creditos": 0
-              },
-              {
-                "nome": "Perla Christiane de Araujo",
-                "status": "concluido",
-                "foto": false,
-                "data": "2026-07-02",
-                "creditos": 10
-              },
-              {
-                "nome": "Sabrina Fernanda Baeta Tergilene",
-                "status": "concluido",
-                "foto": false,
-                "data": "2026-07-02",
-                "creditos": 10
-              }
-            ]
-          },
           {
             "id": "coord-roseane-menegueli",
             "nome": "COORD-Roseane Menegueli",
@@ -2234,6 +2558,284 @@
                 "foto": false,
                 "data": "2026-07-02",
                 "creditos": 2
+              }
+            ]
+          },
+          {
+            "nome": "COORD-Pollyanna Quites",
+            "autores": [
+              {
+                "nome": "Ana Elisa Silva Braz",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
+                "creditos": 0
+              },
+              {
+                "nome": "Claudia Marques de Macedo",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
+                "creditos": 0
+              },
+              {
+                "nome": "Perla Christiane de Araujo",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
+                "creditos": 0
+              },
+              {
+                "nome": "Sabrina Fernanda Baeta Tergilene",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
+                "creditos": 0
+              },
+              {
+                "nome": "poliana quites",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "os-caminhos-excelencia-humana",
+        "nome": "Os Caminhos para a Excelência Humana",
+        "coordenadores": [
+          {
+            "nome": "COORD-Carla Rojane",
+            "autores": [
+              {
+                "nome": "Gisele Piccoli König",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              }
+            ]
+          },
+          {
+            "nome": "COORD-Renata Castello Branco",
+            "autores": [
+              {
+                "nome": "Ana Cacilda de Castro",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Ana Kelly Santos Lima",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Carla Ottoni",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Cléo Lima",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Cristina Correia Barreto",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Jamile Quézia Carvalho",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Leide Santana Cerqueira",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Livia Carolina Arruda Andrade",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Maira Tavares de Souza",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Mona Liz Abreu",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Monica Maria Bezerra da Silva",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Neusa Silva Brandão",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Renata Castello Brandão",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Rosangela Xavier",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Telma Marinho Barreto Bastos",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Vanessa Garcia Aragão",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Wagner Ferreira Moreira Klein",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              }
+            ]
+          },
+          {
+            "nome": "COORD-Sônia",
+            "autores": [
+              {
+                "nome": "Adelice Minetto",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Cristiane de Farias Alves",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Dra. Ana Paula Nunes",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Gabriela Ottoni",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Jane Nogueira Lima",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Luana Oliveira Chiminacio Pereira",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Marcela Silva Chaves de Paula Lavezo",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Marcia Priscila Leite de Lima",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Marlene Almeida",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Priscila Gessica",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Simone Cherlie",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Sônia",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
+              },
+              {
+                "nome": "Tânia",
+                "status": "pendente",
+                "foto": false,
+                "data": null,
+                "creditos": 0
               }
             ]
           }
