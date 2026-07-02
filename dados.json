@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-02T10:29:10.176279",
+  "ultima_atualizacao": "2026-07-02T10:32:19.765269",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -923,8 +923,8 @@
             "autores": [
               {
                 "nome": "Francisco Guilhien Gomes Junior",
-                "status": "pendente",
-                "data": null,
+                "status": "concluido",
+                "data": "2026-07-02",
                 "creditos": 0,
                 "foto": false
               },
@@ -934,6 +934,13 @@
                 "data": null,
                 "creditos": 0,
                 "foto": false
+              },
+              {
+                "nome": "Francisco Guilhien Gomes Junior",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
+                "creditos": 0
               }
             ]
           },
@@ -1025,9 +1032,9 @@
               },
               {
                 "nome": "Julio Cesar Rodrigues Vaz",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
+                "status": "concluido",
+                "data": "2026-07-02",
+                "creditos": 2,
                 "foto": true
               },
               {
