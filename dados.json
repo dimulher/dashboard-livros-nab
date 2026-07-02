@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-02T10:32:19.765269",
+  "ultima_atualizacao": "2026-07-02T10:43:38.767070",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -312,9 +312,9 @@
               },
               {
                 "nome": "Dr Giovanni Melo de Oliveira",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
+                "status": "concluido",
+                "data": "2026-07-02",
+                "creditos": 3,
                 "foto": false
               },
               {
@@ -347,17 +347,24 @@
               },
               {
                 "nome": "Valdineia Machado Lages Ferrazi",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
+                "status": "concluido",
+                "data": "2026-07-02",
+                "creditos": 13,
                 "foto": true
               },
               {
                 "nome": "Vanda Oliveira Lauret dos Anjos",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
+                "status": "concluido",
+                "data": "2026-07-02",
+                "creditos": 13,
                 "foto": false
+              },
+              {
+                "nome": "Alice Correia",
+                "status": "concluido",
+                "foto": false,
+                "data": "2026-07-02",
+                "creditos": 7
               }
             ]
           },
@@ -374,16 +381,16 @@
               },
               {
                 "nome": "Emerson dos Santos Duarte Mafia",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
+                "status": "concluido",
+                "data": "2026-07-02",
+                "creditos": 14,
                 "foto": false
               },
               {
                 "nome": "Humberto Jander de Souza",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
+                "status": "concluido",
+                "data": "2026-07-02",
+                "creditos": 2,
                 "foto": false
               },
               {
@@ -395,9 +402,9 @@
               },
               {
                 "nome": "Julia Fialho Pessoa Candido",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
+                "status": "concluido",
+                "data": "2026-07-02",
+                "creditos": 4,
                 "foto": false
               },
               {
@@ -423,15 +430,15 @@
               },
               {
                 "nome": "Octavio Amazonas Mendes Almeida",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
+                "status": "concluido",
+                "data": "2026-07-02",
+                "creditos": 5,
                 "foto": false
               },
               {
                 "nome": "Priscila Carla Alves",
-                "status": "pendente",
-                "data": null,
+                "status": "concluido",
+                "data": "2026-07-02",
                 "creditos": 0,
                 "foto": false
               },
@@ -451,10 +458,17 @@
               },
               {
                 "nome": "Vanessa Cristina Da Silva Jardim",
-                "status": "pendente",
-                "data": null,
+                "status": "concluido",
+                "data": "2026-07-02",
                 "creditos": 0,
                 "foto": false
+              },
+              {
+                "nome": "Ariane",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
+                "creditos": 1
               }
             ]
           },
@@ -471,16 +485,16 @@
               },
               {
                 "nome": "Silvia Patricia Rone Alves",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
+                "status": "concluido",
+                "data": "2026-07-02",
+                "creditos": 8,
                 "foto": false
               },
               {
-                "nome": "Matheus Santos de Souza",
+                "nome": "rosane araujo",
                 "status": "concluido",
-                "data": "2026-06-27",
-                "creditos": 1.26,
+                "data": "2026-07-02",
+                "creditos": 5,
                 "foto": true
               }
             ]
