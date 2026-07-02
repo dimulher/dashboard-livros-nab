@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-02T11:17:51.438417",
+  "ultima_atualizacao": "2026-07-02T11:25:56.729376",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -1830,9 +1830,9 @@
             "autores": [
               {
                 "nome": "Ana Claudia Silva Melo",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
+                "data": "2026-07-02",
                 "creditos": 0
               },
               {
@@ -1844,9 +1844,9 @@
               },
               {
                 "nome": "Cleonice Vilma dos Santos Almeida",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
+                "data": "2026-07-02",
                 "creditos": 0
               },
               {
@@ -1858,31 +1858,31 @@
               },
               {
                 "nome": "Katia Barbosa de Lima Rocha",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-02",
+                "creditos": 2
               },
               {
                 "nome": "Lorena Rayalla",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
+                "data": "2026-07-02",
                 "creditos": 0
               },
               {
                 "nome": "Luciane Johanson Lelis da Silva",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-02",
+                "creditos": 7
               },
               {
                 "nome": "Lucilene Felipe dos Santos",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-02",
+                "creditos": 1
               },
               {
                 "nome": "Nelise Duarte de Sousa Taia",
@@ -1962,9 +1962,16 @@
               },
               {
                 "nome": "Zilanda Amim Palacin - 2 capitulo",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
+                "data": "2026-07-02",
+                "creditos": 4
+              },
+              {
+                "nome": "rose rozendo",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
                 "creditos": 0
               }
             ]
@@ -1996,10 +2003,10 @@
               },
               {
                 "nome": "Maria Carmelita Nery Rodrigues",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-02",
+                "creditos": 3
               },
               {
                 "nome": "Maria Silvana de Sousa Santos",
