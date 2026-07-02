@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-02T10:53:48.052238",
+  "ultima_atualizacao": "2026-07-02T11:10:58.100371",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -742,30 +742,30 @@
               },
               {
                 "nome": "Elaine Cristina da Silva Martins",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
+                "status": "concluido",
+                "data": "2026-07-02",
+                "creditos": 1,
                 "foto": false
               },
               {
                 "nome": "Helen Caroline Grechi",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
+                "status": "concluido",
+                "data": "2026-07-02",
+                "creditos": 7,
                 "foto": false
               },
               {
                 "nome": "Helio Sluzek Abrao",
-                "status": "pendente",
-                "data": null,
+                "status": "concluido",
+                "data": "2026-07-02",
                 "creditos": 0,
                 "foto": false
               },
               {
                 "nome": "Jaziel Ferreira dos Santos",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
+                "status": "concluido",
+                "data": "2026-07-02",
+                "creditos": 1,
                 "foto": false
               },
               {
@@ -777,8 +777,8 @@
               },
               {
                 "nome": "Lucyane Casagrande",
-                "status": "pendente",
-                "data": null,
+                "status": "concluido",
+                "data": "2026-07-02",
                 "creditos": 0,
                 "foto": false
               },
@@ -788,6 +788,20 @@
                 "data": "2026-06-27",
                 "creditos": 1.26,
                 "foto": true
+              },
+              {
+                "nome": "Adriano Moleiro",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
+                "creditos": 3
+              },
+              {
+                "nome": "cintia borin",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
+                "creditos": 6
               }
             ]
           },
@@ -825,15 +839,15 @@
               },
               {
                 "nome": "Eliude da Silva Trindade",
-                "status": "pendente",
-                "data": null,
+                "status": "concluido",
+                "data": "2026-07-02",
                 "creditos": 0,
                 "foto": false
               },
               {
                 "nome": "Erica Galhardo",
-                "status": "pendente",
-                "data": null,
+                "status": "concluido",
+                "data": "2026-07-02",
                 "creditos": 0,
                 "foto": false
               },
@@ -846,10 +860,17 @@
               },
               {
                 "nome": "Guilherme Jose Bouzani de Campos Ferreira",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
+                "status": "concluido",
+                "data": "2026-07-02",
+                "creditos": 2,
                 "foto": false
+              },
+              {
+                "nome": "Cidinha Perez",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
+                "creditos": 4
               }
             ]
           },
@@ -872,9 +893,9 @@
             "autores": [
               {
                 "nome": "Dinarleia de Jesus Costa Rocha Ribeiro",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
+                "status": "concluido",
+                "data": "2026-07-02",
+                "creditos": 7,
                 "foto": false
               },
               {
@@ -904,6 +925,48 @@
                 "data": "2026-06-27",
                 "creditos": 1.26,
                 "foto": true
+              },
+              {
+                "nome": "bianca de souza coutinho",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
+                "creditos": 6
+              },
+              {
+                "nome": "gleiciane aparecida",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
+                "creditos": 14
+              },
+              {
+                "nome": "Karolina Emanoel",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
+                "creditos": 12
+              },
+              {
+                "nome": "larissa dias",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
+                "creditos": 2
+              },
+              {
+                "nome": "leticia gomes",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
+                "creditos": 10
+              },
+              {
+                "nome": "tatiane golçalves",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-02",
+                "creditos": 16
               }
             ]
           },
