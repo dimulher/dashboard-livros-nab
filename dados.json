@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-04T18:15:03.628523",
+  "ultima_atualizacao": "2026-07-04T18:22:54.702767",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -1718,6 +1718,41 @@
               },
               {
                 "nome": "leandro rispoli",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 4
+              },
+              {
+                "nome": "luciana dos santos souza",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 11
+              },
+              {
+                "nome": "luiz felipe ferreira",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 2
+              },
+              {
+                "nome": "luiz murilho",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 9
+              },
+              {
+                "nome": "otto ferreira",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 0
+              },
+              {
+                "nome": "priscila rocha",
                 "status": "concluido",
                 "foto": true,
                 "data": "2026-07-04",
