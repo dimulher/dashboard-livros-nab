@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-04T18:30:16.550546",
+  "ultima_atualizacao": "2026-07-04T18:39:21.383419",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -2420,6 +2420,41 @@
                 "status": "concluido",
                 "foto": true,
                 "data": "2026-07-02",
+                "creditos": 0
+              },
+              {
+                "nome": "Graziela lack",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 3
+              },
+              {
+                "nome": "Juliana Alves",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 14
+              },
+              {
+                "nome": "Liliane e Jane",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 3
+              },
+              {
+                "nome": "SHÍRLEY FREITAS",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 13
+              },
+              {
+                "nome": "Stefhanny Souza",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
                 "creditos": 0
               }
             ]
