@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-04T18:47:05.340498",
+  "ultima_atualizacao": "2026-07-04T18:56:36.019253",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -719,9 +719,9 @@
               },
               {
                 "nome": "Karina Davina Marcondes Barros",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
+                "status": "concluido",
+                "data": "2026-07-04",
+                "creditos": 14,
                 "foto": true
               },
               {
@@ -895,10 +895,10 @@
               },
               {
                 "nome": "Daiane de Souza Moleiro",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
-                "foto": false
+                "status": "concluido",
+                "data": "2026-07-04",
+                "creditos": 5,
+                "foto": true
               },
               {
                 "nome": "Daniel Taketa",
@@ -2794,6 +2794,13 @@
                 "foto": false,
                 "data": "2026-07-02",
                 "creditos": 2
+              },
+              {
+                "nome": "diego henrique",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 1
               }
             ]
           },
@@ -2916,10 +2923,10 @@
               },
               {
                 "nome": "Maira Tavares de Souza",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 3
               },
               {
                 "nome": "Mona Liz Abreu",
