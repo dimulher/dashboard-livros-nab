@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-04T17:41:55.454126",
+  "ultima_atualizacao": "2026-07-04T18:15:03.628523",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -1680,6 +1680,48 @@
                 "foto": false,
                 "data": null,
                 "creditos": 0
+              },
+              {
+                "nome": "chico jr",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 5
+              },
+              {
+                "nome": "erlania borges",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 2
+              },
+              {
+                "nome": "gabriel alcantara",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 2
+              },
+              {
+                "nome": "hosana brandao",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 9
+              },
+              {
+                "nome": "jhulie campello",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 8
+              },
+              {
+                "nome": "leandro rispoli",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 4
               }
             ]
           }
