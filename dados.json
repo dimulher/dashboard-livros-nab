@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-04T18:22:54.702767",
+  "ultima_atualizacao": "2026-07-04T18:30:16.550546",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -1757,6 +1757,34 @@
                 "foto": true,
                 "data": "2026-07-04",
                 "creditos": 4
+              },
+              {
+                "nome": "rademar de sa",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 3
+              },
+              {
+                "nome": "ricardo da costa verissimo",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 17
+              },
+              {
+                "nome": "roberta veras",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 3
+              },
+              {
+                "nome": "roger marquez",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 5
               }
             ]
           }
