@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-04T17:03:27.954273",
+  "ultima_atualizacao": "2026-07-04T17:21:18.471476",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -2022,66 +2022,73 @@
             "autores": [
               {
                 "nome": "Ederson Alves Machado",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-04",
+                "creditos": 2
               },
               {
                 "nome": "Gisele Alves Costanza Caversan",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-04",
+                "creditos": 2
               },
               {
                 "nome": "Kaique Nunes Pereira",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-04",
+                "creditos": 5
               },
               {
                 "nome": "Ketilyn Karina Ortega Canzano",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-04",
+                "creditos": 1
               },
               {
                 "nome": "Maerley P Costa",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-04",
+                "creditos": 6
               },
               {
                 "nome": "Marcus Vinicius Severo",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-04",
+                "creditos": 7
               },
               {
                 "nome": "Taisa Fatima Casimiro Sanches",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-04",
+                "creditos": 9
               },
               {
                 "nome": "Teresa Cristina Lala dos Santos Faria",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-04",
+                "creditos": 6
               },
               {
                 "nome": "Vanessa de Paula Moreira Oliveira",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-04",
+                "creditos": 2
+              },
+              {
+                "nome": "luis felipe caversan",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 3
               }
             ]
           },
