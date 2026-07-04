@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-04T09:33:29.640052",
+  "ultima_atualizacao": "2026-07-04T17:03:27.954273",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -1975,10 +1975,10 @@
             "autores": [
               {
                 "nome": "Leomar Oliveira Campos",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-04",
+                "creditos": 3
               }
             ]
           },
@@ -1988,24 +1988,31 @@
             "autores": [
               {
                 "nome": "Lucio Jose de Azevedo Lucena",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-04",
+                "creditos": 11
               },
               {
                 "nome": "Luiza Maria Aragao Pontes",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-04",
+                "creditos": 3
               },
               {
                 "nome": "Maria Gorete Oliveira de Sousa",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-04",
+                "creditos": 7
+              },
+              {
+                "nome": "Caio Henrique Quinderé Castello Branco",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 6
               }
             ]
           },
