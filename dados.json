@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-04T17:27:52.214761",
+  "ultima_atualizacao": "2026-07-04T17:41:55.454126",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -2159,17 +2159,17 @@
             "autores": [
               {
                 "nome": "Ediana Cristina Nascimento",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-04",
+                "creditos": 3
               },
               {
                 "nome": "Liliane Carneiro Costa",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-04",
+                "creditos": 22
               },
               {
                 "nome": "Livia Carolina Arruda Andrade",
@@ -2201,10 +2201,10 @@
               },
               {
                 "nome": "Sabrina Santos da Conceicao",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-04",
+                "creditos": 41
               },
               {
                 "nome": "rosane menegueli",
@@ -2212,6 +2212,20 @@
                 "foto": false,
                 "data": "2026-07-02",
                 "creditos": 0
+              },
+              {
+                "nome": "Maria Silvaneide",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 9
+              },
+              {
+                "nome": "lucia costa",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 4
               }
             ]
           }
