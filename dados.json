@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-04T18:39:21.383419",
+  "ultima_atualizacao": "2026-07-04T18:43:42.519712",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -2532,6 +2532,20 @@
                 "foto": true,
                 "data": "2026-07-02",
                 "creditos": 0
+              },
+              {
+                "nome": "naiane pereira ramos",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 3
+              },
+              {
+                "nome": "sandra barcellos",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-04",
+                "creditos": 15
               }
             ]
           },
