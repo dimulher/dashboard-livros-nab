@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-04T09:27:10.921621",
+  "ultima_atualizacao": "2026-07-04T09:33:29.640052",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -399,14 +399,14 @@
                 "status": "concluido",
                 "data": "2026-06-27",
                 "creditos": 1.26,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Carlos Henrique de Jesus",
                 "status": "concluido",
                 "data": "2026-06-27",
                 "creditos": 1.26,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Dr Giovanni Melo de Oliveira",
@@ -420,7 +420,7 @@
                 "status": "concluido",
                 "data": "2026-07-03",
                 "creditos": 4,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Priscila Andrade Silva",
@@ -455,26 +455,26 @@
                 "status": "concluido",
                 "data": "2026-07-02",
                 "creditos": 13,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Alice Correia",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-02",
                 "creditos": 7
               },
               {
                 "nome": "gabrielle  soares",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 3
               },
               {
                 "nome": "kamilla ragassi",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 45
               }
@@ -510,7 +510,7 @@
                 "status": "concluido",
                 "data": "2026-07-03",
                 "creditos": 3,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Julia Fialho Pessoa Candido",
@@ -524,7 +524,7 @@
                 "status": "concluido",
                 "data": "2026-07-03",
                 "creditos": 30,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Millena Selva Medeiros Garonce",
@@ -661,12 +661,12 @@
                 "status": "concluido",
                 "data": "2026-07-03",
                 "creditos": 4,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Fran Backer",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 2
               }
@@ -679,7 +679,7 @@
               {
                 "nome": "Marcio Okabe",
                 "status": "pendente",
-                "foto": false,
+                "foto": true,
                 "data": null,
                 "creditos": 0
               }
@@ -722,7 +722,7 @@
                 "status": "pendente",
                 "data": null,
                 "creditos": 0,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Leonardo Milner",
@@ -838,12 +838,12 @@
                 "status": "concluido",
                 "data": "2026-07-03",
                 "creditos": 5,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "saionara menezes",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-02",
                 "creditos": 5
               }
@@ -855,7 +855,7 @@
               {
                 "nome": "joelson santos",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 1
               },
@@ -940,7 +940,7 @@
                 "status": "concluido",
                 "data": "2026-06-27",
                 "creditos": 1.26,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Lucyane Casagrande",
@@ -973,7 +973,7 @@
               {
                 "nome": "alaor pedro",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 3
               }
@@ -1002,7 +1002,7 @@
                 "status": "concluido",
                 "data": "2026-07-03",
                 "creditos": 5,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Deusa Dominique de Oliveira Brioni",
@@ -1030,7 +1030,7 @@
                 "status": "concluido",
                 "data": "2026-07-03",
                 "creditos": 8,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Guilherme Jose Bouzani de Campos Ferreira",
@@ -1057,7 +1057,7 @@
                 "status": "concluido",
                 "data": "2026-07-03",
                 "creditos": 7,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Danielle Roberta",
@@ -1098,7 +1098,7 @@
                 "status": "concluido",
                 "data": "2026-07-03",
                 "creditos": 5,
-                "foto": false
+                "foto": true
               },
               {
                 "nome": "Tharsila Tawany Neves Strambeck da Costa",
@@ -2660,7 +2660,7 @@
               {
                 "nome": "Gisele Piccoli König",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 2
               }
@@ -2672,7 +2672,7 @@
               {
                 "nome": "Ana Cacilda de Castro",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 6
               },
@@ -2686,7 +2686,7 @@
               {
                 "nome": "Carla Ottoni",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 2
               },
@@ -2707,21 +2707,21 @@
               {
                 "nome": "Jamile Quézia Carvalho",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 3
               },
               {
                 "nome": "Leide Santana Cerqueira",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 27
               },
               {
                 "nome": "Livia Carolina Arruda Andrade",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 5
               },
@@ -2749,42 +2749,42 @@
               {
                 "nome": "Neusa Silva Brandão",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 0
               },
               {
                 "nome": "Renata Castello Brandão",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 9
               },
               {
                 "nome": "Rosangela Xavier",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 1
               },
               {
                 "nome": "Telma Marinho Barreto Bastos",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 19
               },
               {
                 "nome": "Vanessa Garcia Aragão",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 2
               },
               {
                 "nome": "Wagner Ferreira Moreira Klein",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 1
               }
@@ -2796,7 +2796,7 @@
               {
                 "nome": "Adelice Minetto",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 3
               },
@@ -2817,14 +2817,14 @@
               {
                 "nome": "Gabriela Ottoni",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 16
               },
               {
                 "nome": "Jane Nogueira Lima",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 0
               },
@@ -2838,42 +2838,42 @@
               {
                 "nome": "Marcela Silva Chaves de Paula Lavezo",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 11
               },
               {
                 "nome": "Marcia Priscila Leite de Lima",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 26
               },
               {
                 "nome": "Marlene Almeida",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 14
               },
               {
                 "nome": "Priscila Gessica",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 6
               },
               {
                 "nome": "Simone Cherlie",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 9
               },
               {
                 "nome": "Sônia",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-03",
                 "creditos": 3
               },
