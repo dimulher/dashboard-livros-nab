@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-04T17:21:18.471476",
+  "ultima_atualizacao": "2026-07-04T17:27:52.214761",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -2098,10 +2098,10 @@
             "autores": [
               {
                 "nome": "Claudia Maria Eberhardt Thomas",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-04",
+                "creditos": 4
               },
               {
                 "nome": "Francieli Giraldon Hammerschmitt",
@@ -2126,17 +2126,17 @@
               },
               {
                 "nome": "Walda Shirley Paes Moura de Menezes",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-04",
+                "creditos": 19
               },
               {
                 "nome": "neriane",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-04",
+                "creditos": 10
               }
             ]
           },
