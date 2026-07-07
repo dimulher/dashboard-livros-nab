@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-07T09:11:07.436912",
+  "ultima_atualizacao": "2026-07-07T09:14:46.954354",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -2906,6 +2906,13 @@
                 "foto": true,
                 "data": "2026-07-04",
                 "creditos": 1
+              },
+              {
+                "nome": "jeferson",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 1
               }
             ]
           },
@@ -2946,6 +2953,13 @@
                 "foto": false,
                 "data": null,
                 "creditos": 0
+              },
+              {
+                "nome": "karolina emanuel",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 3
               }
             ]
           }
