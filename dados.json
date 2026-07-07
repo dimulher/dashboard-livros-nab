@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-07T08:59:21.240205",
+  "ultima_atualizacao": "2026-07-07T09:00:29.337112",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -380,6 +380,18 @@
                 "foto": true,
                 "data": "2026-07-02",
                 "creditos": 5
+              }
+            ]
+          },
+          {
+            "nome": "COORD-RADEMAR DE SA",
+            "autores": [
+              {
+                "nome": "RADEMAR DE SA",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 3
               }
             ]
           }
