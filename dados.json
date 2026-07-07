@@ -2902,17 +2902,17 @@
               },
               {
                 "nome": "Flavia Magalhaes Artilheiro",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 18
               },
               {
                 "nome": "Flavia Magalhaes Artilheiro - 2 capitulo",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 12
               },
               {
                 "nome": "Jeanine Nunes Romano",
