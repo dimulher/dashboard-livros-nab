@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-07T09:06:50.817523",
+  "ultima_atualizacao": "2026-07-07T09:11:07.436912",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -2730,10 +2730,10 @@
               },
               {
                 "nome": "zenaria mariana",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 16
               }
             ]
           }
