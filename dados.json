@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-07T08:49:28.225559",
+  "ultima_atualizacao": "2026-07-07T08:55:24.004313",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -2259,6 +2259,20 @@
                 "foto": true,
                 "data": "2026-07-04",
                 "creditos": 3
+              },
+              {
+                "nome": "nielsen carvalho lima",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 11
+              },
+              {
+                "nome": "simone rufino",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 42
               }
             ]
           },
