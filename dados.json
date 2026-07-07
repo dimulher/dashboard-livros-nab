@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-07T08:55:24.004313",
+  "ultima_atualizacao": "2026-07-07T08:59:21.240205",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -2371,10 +2371,10 @@
               },
               {
                 "nome": "Maria Brigida Maia Matos",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 10
               },
               {
                 "nome": "Rosangela Fraga de Souza",
@@ -2410,6 +2410,13 @@
                 "foto": true,
                 "data": "2026-07-04",
                 "creditos": 4
+              },
+              {
+                "nome": "katia calisto",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 1
               }
             ]
           }
