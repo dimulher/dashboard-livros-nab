@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-07T09:14:46.954354",
+  "ultima_atualizacao": "2026-07-07T09:24:30.544584",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -2993,10 +2993,10 @@
               },
               {
                 "nome": "Ana Kelly Santos Lima",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 13
               },
               {
                 "nome": "Carla Ottoni",
@@ -3007,10 +3007,10 @@
               },
               {
                 "nome": "Cléo Lima",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 14
               },
               {
                 "nome": "Cristina Correia Barreto",
@@ -3102,6 +3102,13 @@
                 "foto": true,
                 "data": "2026-07-03",
                 "creditos": 1
+              },
+              {
+                "nome": "daniele pio",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 6
               }
             ]
           },
@@ -3198,6 +3205,13 @@
                 "foto": false,
                 "data": null,
                 "creditos": 0
+              },
+              {
+                "nome": "moises santuario",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 4
               }
             ]
           }
