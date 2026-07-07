@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-07T09:00:29.337112",
+  "ultima_atualizacao": "2026-07-07T09:06:50.817523",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -2501,10 +2501,10 @@
               },
               {
                 "nome": "Nelise Duarte de Sousa Taia",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 22
               },
               {
                 "nome": "Renata",
@@ -2554,6 +2554,20 @@
                 "foto": true,
                 "data": "2026-07-04",
                 "creditos": 0
+              },
+              {
+                "nome": "claudia pires",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 1
+              },
+              {
+                "nome": "laiza danyelle",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 11
               }
             ]
           },
