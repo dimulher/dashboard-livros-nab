@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-07T08:34:11.647557",
+  "ultima_atualizacao": "2026-07-07T08:43:55.444217",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -747,8 +747,10 @@
               },
               {
                 "nome": "Luciane Alves de Carvalho Miranda",
-                "status": "pendente",
-                "foto": false
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 6
               },
               {
                 "nome": "Mariana Soares Santos",
@@ -791,6 +793,20 @@
                 "data": "2026-06-27",
                 "creditos": 1.26,
                 "foto": true
+              },
+              {
+                "nome": "dr francine cruz",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 0
+              },
+              {
+                "nome": "marcia inati de lucca",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 2
               }
             ]
           },
@@ -846,6 +862,13 @@
                 "foto": true,
                 "data": "2026-07-02",
                 "creditos": 5
+              },
+              {
+                "nome": "joao miguel",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 47
               }
             ]
           },
