@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-07T11:16:23.485155",
+  "ultima_atualizacao": "2026-07-07T11:21:42.039247",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -2056,10 +2056,10 @@
               },
               {
                 "nome": "Sonia Alves",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 1
               },
               {
                 "nome": "Tania Maia",
@@ -2640,10 +2640,10 @@
               },
               {
                 "nome": "Katia Regina",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 2
               },
               {
                 "nome": "Regina Celia Santos Rocha",
@@ -2751,10 +2751,10 @@
               },
               {
                 "nome": "Raquel Garcia Coelho",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 4
               },
               {
                 "nome": "Sandra Nascimento",
