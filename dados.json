@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-07T11:12:11.895640",
+  "ultima_atualizacao": "2026-07-07T11:16:23.485155",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -697,10 +697,10 @@
             "autores": [
               {
                 "nome": "Marcio Okabe",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": true,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-07",
+                "creditos": 4
               }
             ]
           },
@@ -710,10 +710,10 @@
             "autores": [
               {
                 "nome": "Alice Marimon",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
-                "foto": false
+                "status": "concluido",
+                "data": "2026-07-07",
+                "creditos": 3,
+                "foto": true
               },
               {
                 "nome": "Cesar de Carvalho Pereira",
