@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-04T18:56:36.019253",
+  "ultima_atualizacao": "2026-07-07T08:28:28.684691",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -1662,17 +1662,17 @@
               },
               {
                 "nome": "robert",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 5
               },
               {
                 "nome": "shirlay",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 10
               },
               {
                 "nome": "thamires",
@@ -1783,8 +1783,8 @@
                 "nome": "roberta veras",
                 "status": "concluido",
                 "foto": true,
-                "data": "2026-07-04",
-                "creditos": 3
+                "data": "2026-07-07",
+                "creditos": 5
               },
               {
                 "nome": "roger marquez",
@@ -1792,6 +1792,34 @@
                 "foto": true,
                 "data": "2026-07-04",
                 "creditos": 5
+              },
+              {
+                "nome": "gabriel garcez",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 0
+              },
+              {
+                "nome": "gabriel intenso",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 1
+              },
+              {
+                "nome": "joao adolfo",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 2
+              },
+              {
+                "nome": "luis fernandes",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-07",
+                "creditos": 1
               }
             ]
           }
