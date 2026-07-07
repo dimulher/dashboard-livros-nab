@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-07T08:43:55.444217",
+  "ultima_atualizacao": "2026-07-07T08:49:28.225559",
   "dede": {
     "nome": "Dede",
     "cor": "#3B82F6",
@@ -1029,10 +1029,10 @@
               },
               {
                 "nome": "Deusa Dominique de Oliveira Brioni",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
-                "foto": false
+                "status": "concluido",
+                "data": "2026-07-07",
+                "creditos": 4,
+                "foto": true
               },
               {
                 "nome": "Eliude da Silva Trindade",
@@ -1104,17 +1104,17 @@
               },
               {
                 "nome": "Joyce Batista de Souza",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
-                "foto": false
+                "status": "concluido",
+                "data": "2026-07-07",
+                "creditos": 1,
+                "foto": true
               },
               {
                 "nome": "Matheus Queiroz Maciel",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
-                "foto": false
+                "status": "concluido",
+                "data": "2026-07-07",
+                "creditos": 4,
+                "foto": true
               },
               {
                 "nome": "Patricia Anastacio",
