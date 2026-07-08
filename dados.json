@@ -262,6 +262,13 @@
                 "foto": true,
                 "data": "2026-07-02",
                 "creditos": 2
+              },
+              {
+                "nome": "Dr Paula Melo",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-08",
+                "creditos": 0
               }
             ]
           },
