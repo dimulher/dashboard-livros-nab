@@ -84,13 +84,6 @@
                 "foto": true
               },
               {
-                "nome": "Luana Ortiz",
-                "status": "concluido",
-                "data": "2026-06-24",
-                "creditos": 1.26,
-                "foto": false
-              },
-              {
                 "nome": "Luiz Paulo",
                 "status": "concluido",
                 "data": "2026-06-24",
@@ -171,13 +164,6 @@
                 "nome": "Irene sá affolter",
                 "status": "concluido",
                 "foto": true,
-                "data": "2026-07-02",
-                "creditos": 0
-              },
-              {
-                "nome": "Luana Ortiz --",
-                "status": "concluido",
-                "foto": false,
                 "data": "2026-07-02",
                 "creditos": 0
               },
@@ -2576,13 +2562,6 @@
             "nome": "COORD-Rose Rozendo",
             "autores": [
               {
-                "nome": "Cibeli Marques Bannitz Egger",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
-                "creditos": 0
-              },
-              {
                 "nome": "Constantina Abreu",
                 "status": "concluido",
                 "foto": true,
@@ -2744,47 +2723,6 @@
         "nome": "O Poder de Conhecer Seus Direitos - PT",
         "total_capitulos": 23,
         "coordenadores": [
-          {
-            "id": "coord-roseane-menegueli",
-            "nome": "COORD-Roseane Menegueli",
-            "autores": [
-              {
-                "nome": "Dr Ricardo Zavat",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
-                "creditos": 0
-              },
-              {
-                "nome": "Hildo Cristiano",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
-                "creditos": 0
-              },
-              {
-                "nome": "Jefferson",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
-                "creditos": 0
-              },
-              {
-                "nome": "Rose Rozendo",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
-                "creditos": 0
-              },
-              {
-                "nome": "Simoni Ludovic",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
-                "creditos": 0
-              }
-            ]
-          },
           {
             "id": "coord-rubens",
             "nome": "COORD-Rubens",
