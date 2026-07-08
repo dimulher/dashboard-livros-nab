@@ -1124,7 +1124,7 @@
               {
                 "nome": "Patricia Anastacio",
                 "status": "concluido",
-                "data": "2026-07-03",
+                "data": "2026-07-08",
                 "creditos": 5,
                 "foto": true
               },
@@ -1607,7 +1607,7 @@
               {
                 "nome": "caio zalt",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-08",
                 "creditos": 2
               },
@@ -2866,9 +2866,9 @@
               },
               {
                 "nome": "poliana quites",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-08",
                 "creditos": 0
               },
               {
