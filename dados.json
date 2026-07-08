@@ -478,10 +478,10 @@
               },
               {
                 "nome": "ylana paravidino",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": true,
-                "data": "2026-07-07",
-                "creditos": 0
+                "data": "2026-07-08",
+                "creditos": 10
               }
             ]
           },
@@ -629,9 +629,9 @@
             "autores": [
               {
                 "nome": "Andreza Valadares Vinagre",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
+                "status": "concluido",
+                "data": "2026-07-08",
+                "creditos": 3,
                 "foto": true
               },
               {
@@ -1341,9 +1341,9 @@
               },
               {
                 "nome": "Diego Roberto",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
+                "status": "concluido",
+                "data": "2026-07-08",
+                "creditos": 2,
                 "foto": true
               },
               {
@@ -1606,10 +1606,10 @@
               },
               {
                 "nome": "caio zalt",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-08",
+                "creditos": 2
               },
               {
                 "nome": "cleo",
@@ -1877,24 +1877,24 @@
             "autores": [
               {
                 "nome": "Andrea Angelini de Oliveira",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": true,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-08",
+                "creditos": 5
               },
               {
                 "nome": "Edna Oliveira Ferreira Araujo",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": true,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-08",
+                "creditos": 1
               },
               {
                 "nome": "Gleysse Cunha Paolinelli",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": true,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-08",
+                "creditos": 6
               },
               {
                 "nome": "Sandra da Silva Santos",
@@ -1958,10 +1958,10 @@
             "autores": [
               {
                 "nome": "Adriane",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": true,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-08",
+                "creditos": 8
               },
               {
                 "nome": "Amanda Carlos Gomes Bravo",
@@ -2000,10 +2000,10 @@
               },
               {
                 "nome": "Rosangela Ferreira de Andrade",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-08",
+                "creditos": 8
               },
               {
                 "nome": "Sonia Alves",
@@ -2014,10 +2014,10 @@
               },
               {
                 "nome": "Tania Maia",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-08",
+                "creditos": 3
               },
               {
                 "nome": "Valquiria Silva",
@@ -2267,10 +2267,10 @@
               },
               {
                 "nome": "patricia nunes romano",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": true,
-                "data": "2026-07-07",
-                "creditos": 0
+                "data": "2026-07-08",
+                "creditos": 1
               }
             ]
           },
