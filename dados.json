@@ -168,13 +168,6 @@
                 "creditos": 0
               },
               {
-                "nome": "Monica Tavares de Barros --",
-                "status": "concluido",
-                "foto": false,
-                "data": "2026-07-02",
-                "creditos": 0
-              },
-              {
                 "nome": "NELCI TEREZINHA",
                 "status": "concluido",
                 "foto": true,
@@ -2008,7 +2001,7 @@
               {
                 "nome": "Rosangela Ferreira de Andrade",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-08",
                 "creditos": 8
               },
@@ -2743,10 +2736,10 @@
               },
               {
                 "nome": "Lidiane Praxedes de Oliveira",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-08",
+                "creditos": 10
               },
               {
                 "nome": "Liliane Ikenaga",
