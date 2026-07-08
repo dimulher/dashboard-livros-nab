@@ -647,6 +647,13 @@
                 "foto": false,
                 "data": null,
                 "creditos": 0
+              },
+              {
+                "nome": "Rachel Mollyna",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-08",
+                "creditos": 2
               }
             ]
           }
@@ -2966,10 +2973,10 @@
               },
               {
                 "nome": "Mona Liz Abreu",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": true,
-                "data": null,
-                "creditos": 0
+                "data": "2026-07-08",
+                "creditos": 17
               },
               {
                 "nome": "Monica Maria Bezerra da Silva",
