@@ -656,6 +656,18 @@
                 "creditos": 2
               }
             ]
+          },
+          {
+            "nome": "luiz nakandakere",
+            "autores": [
+              {
+                "nome": "Dr Luiz Nakandakare",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-09",
+                "creditos": 2
+              }
+            ]
           }
         ]
       },
@@ -1206,10 +1218,10 @@
             "autores": [
               {
                 "nome": "Claudeilene Leite Gomes",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
-                "foto": false
+                "status": "concluido",
+                "data": "2026-07-09",
+                "creditos": 5,
+                "foto": true
               },
               {
                 "nome": "Malu",
