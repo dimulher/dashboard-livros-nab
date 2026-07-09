@@ -819,6 +819,13 @@
                 "foto": true,
                 "data": "2026-07-07",
                 "creditos": 2
+              },
+              {
+                "nome": "Raquel Marques",
+                "status": "concluido",
+                "foto": false,
+                "data": "2026-07-09",
+                "creditos": 0
               }
             ]
           },
@@ -1206,10 +1213,17 @@
               },
               {
                 "nome": "Malu",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-09",
+                "creditos": 4
+              },
+              {
+                "nome": "Carlos Humberto Cantanes",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-09",
+                "creditos": 4
               }
             ]
           },
@@ -2743,10 +2757,10 @@
             "autores": [
               {
                 "nome": "Alexandre de Menezes Simao",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
-                "creditos": 0
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-09",
+                "creditos": 10
               },
               {
                 "nome": "Lidiane Praxedes de Oliveira",
@@ -2771,9 +2785,9 @@
               },
               {
                 "nome": "Rubens Neuber de Souza Junior",
-                "status": "pendente",
+                "status": "concluido",
                 "foto": false,
-                "data": null,
+                "data": "2026-07-08",
                 "creditos": 0
               }
             ]
