@@ -668,6 +668,18 @@
                 "creditos": 2
               }
             ]
+          },
+          {
+            "nome": "adriana more",
+            "autores": [
+              {
+                "nome": "Adriana More",
+                "status": "concluido",
+                "foto": false,
+                "data": "2026-07-12",
+                "creditos": 1
+              }
+            ]
           }
         ]
       },
@@ -835,7 +847,7 @@
               {
                 "nome": "Raquel Marques",
                 "status": "concluido",
-                "foto": false,
+                "foto": true,
                 "data": "2026-07-09",
                 "creditos": 0
               }
@@ -1209,6 +1221,13 @@
                 "foto": false,
                 "data": null,
                 "creditos": 0
+              },
+              {
+                "nome": "Dayse Kubis Baumeier",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-13",
+                "creditos": 3
               }
             ]
           },
@@ -1423,10 +1442,10 @@
               },
               {
                 "nome": "Rosineide Maria de Paiva",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
-                "foto": false
+                "status": "concluido",
+                "data": "2026-07-12",
+                "creditos": 1,
+                "foto": true
               },
               {
                 "nome": "Silvana Amaro dos Santos",
@@ -1475,13 +1494,6 @@
                 "data": "2026-06-27",
                 "creditos": 4.94,
                 "foto": true
-              },
-              {
-                "nome": "Bruno Alexandre Capistrano de Irineu Silva",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
-                "foto": false
               },
               {
                 "nome": "Eduardo Fogaca",
@@ -1888,6 +1900,13 @@
                 "foto": true,
                 "data": "2026-07-07",
                 "creditos": 3
+              },
+              {
+                "nome": "Bruno Alexandre Capistrano de Irineu Silva",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-12",
+                "creditos": 1
               }
             ]
           }
@@ -1942,6 +1961,13 @@
                 "foto": false,
                 "data": null,
                 "creditos": 0
+              },
+              {
+                "nome": "Cida Montijo",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-12",
+                "creditos": 4
               }
             ]
           },
@@ -2432,8 +2458,8 @@
                 "nome": "rosane menegueli",
                 "status": "concluido",
                 "foto": true,
-                "data": "2026-07-02",
-                "creditos": 0
+                "data": "2026-07-11",
+                "creditos": 3
               },
               {
                 "nome": "Maria Silvaneide",
@@ -2455,6 +2481,32 @@
                 "foto": true,
                 "data": "2026-07-07",
                 "creditos": 1
+              },
+              {
+                "nome": "Adriana Sant'Anna",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-12",
+                "creditos": 0
+              }
+            ]
+          },
+          {
+            "nome": "coord-suzilei",
+            "autores": [
+              {
+                "nome": "Daniela Santana",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-13",
+                "creditos": 17
+              },
+              {
+                "nome": "Mark Pereira",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-13",
+                "creditos": 11
               }
             ]
           }
@@ -2594,6 +2646,13 @@
                 "foto": true,
                 "data": "2026-07-07",
                 "creditos": 11
+              },
+              {
+                "nome": "Soraine",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-12",
+                "creditos": 4
               }
             ]
           },
@@ -2753,6 +2812,13 @@
                 "foto": true,
                 "data": "2026-07-07",
                 "creditos": 16
+              },
+              {
+                "nome": "Sandra Nascimento",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-13",
+                "creditos": 2
               }
             ]
           }
