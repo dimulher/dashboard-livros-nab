@@ -1907,6 +1907,13 @@
                 "foto": true,
                 "data": "2026-07-12",
                 "creditos": 1
+              },
+              {
+                "nome": "Cleo Almeida",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-14",
+                "creditos": 0
               }
             ]
           }
