@@ -675,9 +675,9 @@
               {
                 "nome": "Adriana More",
                 "status": "concluido",
-                "foto": false,
-                "data": "2026-07-12",
-                "creditos": 1
+                "foto": true,
+                "data": "2026-07-14",
+                "creditos": 2
               }
             ]
           }
@@ -1042,6 +1042,13 @@
                 "foto": true,
                 "data": "2026-07-03",
                 "creditos": 3
+              },
+              {
+                "nome": "Keli Anschau",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-14",
+                "creditos": 5
               }
             ]
           },
@@ -1216,13 +1223,6 @@
                 "creditos": 16
               },
               {
-                "nome": "dayse de souza kubis",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
-                "creditos": 0
-              },
-              {
                 "nome": "Dayse Kubis Baumeier",
                 "status": "concluido",
                 "foto": true,
@@ -1379,9 +1379,9 @@
               },
               {
                 "nome": "Carla Rojane",
-                "status": "pendente",
-                "data": null,
-                "creditos": 0,
+                "status": "concluido",
+                "data": "2026-07-14",
+                "creditos": 20,
                 "foto": false
               },
               {
@@ -2098,6 +2098,13 @@
                 "foto": true,
                 "data": "2026-07-08",
                 "creditos": 0
+              },
+              {
+                "nome": "Renata Oliveira Pena",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-14",
+                "creditos": 0
               }
             ]
           },
@@ -2152,6 +2159,13 @@
                 "status": "concluido",
                 "foto": true,
                 "data": "2026-07-02",
+                "creditos": 0
+              },
+              {
+                "nome": "Rafaela Araujo",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-14",
                 "creditos": 0
               }
             ]
@@ -2793,13 +2807,6 @@
                 "creditos": 4
               },
               {
-                "nome": "Sandra Nascimento",
-                "status": "pendente",
-                "foto": false,
-                "data": null,
-                "creditos": 0
-              },
-              {
                 "nome": "erica janaina",
                 "status": "pendente",
                 "foto": false,
@@ -2819,6 +2826,13 @@
                 "foto": true,
                 "data": "2026-07-13",
                 "creditos": 2
+              },
+              {
+                "nome": "Ana Cristina Lopes Borges",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-14",
+                "creditos": 0
               }
             ]
           }
@@ -2936,6 +2950,13 @@
                 "foto": true,
                 "data": "2026-07-07",
                 "creditos": 1
+              },
+              {
+                "nome": "Samira Ebani",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-14",
+                "creditos": 4
               }
             ]
           },
@@ -3132,6 +3153,13 @@
                 "foto": true,
                 "data": "2026-07-07",
                 "creditos": 6
+              },
+              {
+                "nome": "Monalissa Liz Abreu",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-14",
+                "creditos": 0
               }
             ]
           },
@@ -3235,6 +3263,18 @@
                 "foto": true,
                 "data": "2026-07-07",
                 "creditos": 4
+              }
+            ]
+          },
+          {
+            "nome": "meri magoga",
+            "autores": [
+              {
+                "nome": "Meri Magoga",
+                "status": "concluido",
+                "foto": true,
+                "data": "2026-07-14",
+                "creditos": 2
               }
             ]
           }
